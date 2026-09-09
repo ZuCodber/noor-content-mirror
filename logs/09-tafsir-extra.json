@@ -1,0 +1,90 @@
+{
+  "startedAt": "2026-09-09T10:21:19.414Z",
+  "finishedAt": "2026-09-09T10:24:44.088Z",
+  "events": [
+    {
+      "level": "info",
+      "msg": "Fetching quranapi.pages.dev (Ibn Kathir + others) per surah...",
+      "t": 1788949279417
+    },
+    {
+      "level": "info",
+      "msg": "quranapi.pages.dev — ok=114 failed=0",
+      "t": 1788949290427
+    },
+    {
+      "level": "info",
+      "msg": "Fetching spa5k/tafsir_api (12 curated tafsirs) per surah...",
+      "t": 1788949290428
+    },
+    {
+      "level": "info",
+      "msg": "spa5k en-tafsir-maarif-ul-quran — ok=114 failed=0",
+      "t": 1788949295536
+    },
+    {
+      "level": "info",
+      "msg": "spa5k en-al-jalalayn — ok=114 failed=0",
+      "t": 1788949300856
+    },
+    {
+      "level": "info",
+      "msg": "spa5k en-tafisr-ibn-kathir — ok=114 failed=0",
+      "t": 1788949309349
+    },
+    {
+      "level": "info",
+      "msg": "spa5k en-tazkirul-quran — ok=114 failed=0",
+      "t": 1788949313021
+    },
+    {
+      "level": "info",
+      "msg": "spa5k en-tafsir-ibn-abbas — ok=114 failed=0",
+      "t": 1788949315882
+    },
+    {
+      "level": "info",
+      "msg": "spa5k en-tafsir-al-mukhtasar — ok=114 failed=0",
+      "t": 1788949321701
+    },
+    {
+      "level": "info",
+      "msg": "spa5k ur-tafsir-fe-zalul-quran-syed-qatab — ok=0 failed=114",
+      "t": 1788949347413
+    },
+    {
+      "level": "info",
+      "msg": "spa5k ur-tafsir-bayan-ul-quran — ok=114 failed=0",
+      "t": 1788949352989
+    },
+    {
+      "level": "info",
+      "msg": "spa5k ur-tafseer-ibn-e-kaseer — ok=114 failed=0",
+      "t": 1788949361286
+    },
+    {
+      "level": "info",
+      "msg": "spa5k ur-tazkirul-quran — ok=114 failed=0",
+      "t": 1788949398841
+    },
+    {
+      "level": "info",
+      "msg": "spa5k ur-tafsir-as-saadi-urdu — ok=114 failed=0",
+      "t": 1788949435728
+    },
+    {
+      "level": "info",
+      "msg": "spa5k hindi-mokhtasar — ok=114 failed=0",
+      "t": 1788949484088
+    },
+    {
+      "level": "info",
+      "msg": "ALL DONE. ibnKathir ok=114 failed=0; spa5k ok=1254 failed=114",
+      "t": 1788949484088
+    }
+  ],
+  "ikOk": 114,
+  "ikFailed": 0,
+  "spa5kOk": 1254,
+  "spa5kFailed": 114
+}

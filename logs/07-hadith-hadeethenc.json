@@ -1,0 +1,96 @@
+{
+  "startedAt": "2026-09-09T10:21:55.740Z",
+  "finishedAt": "2026-09-09T10:57:22.032Z",
+  "events": [
+    {
+      "level": "info",
+      "msg": "categories/en.json — 452 categories",
+      "t": 1788949316442
+    },
+    {
+      "level": "info",
+      "msg": "en: 2328 unique hadeeth ids across 452 categories",
+      "t": 1788949462504
+    },
+    {
+      "level": "info",
+      "msg": "en: hadeeth details ok=2328 failed=0",
+      "t": 1788949537533
+    },
+    {
+      "level": "info",
+      "msg": "categories/ur.json — 445 categories",
+      "t": 1788949537813
+    },
+    {
+      "level": "info",
+      "msg": "ur: 2220 unique hadeeth ids across 445 categories",
+      "t": 1788949683241
+    },
+    {
+      "level": "info",
+      "msg": "ur: hadeeth details ok=2220 failed=0",
+      "t": 1788949744351
+    },
+    {
+      "level": "info",
+      "msg": "categories/ar.json — 493 categories",
+      "t": 1788949744635
+    },
+    {
+      "level": "info",
+      "msg": "ar: 3574 unique hadeeth ids across 493 categories",
+      "t": 1788949996663
+    },
+    {
+      "level": "info",
+      "msg": "ar: hadeeth details ok=3574 failed=0",
+      "t": 1788950719817
+    },
+    {
+      "level": "info",
+      "msg": "categories/hi.json — 449 categories",
+      "t": 1788950721314
+    },
+    {
+      "level": "info",
+      "msg": "hi: 2314 unique hadeeth ids across 449 categories",
+      "t": 1788951318224
+    },
+    {
+      "level": "info",
+      "msg": "hi: hadeeth details ok=2314 failed=0",
+      "t": 1788951442032
+    }
+  ],
+  "summary": {
+    "en": {
+      "categories": 452,
+      "ids": 2328,
+      "ok": 2328,
+      "failed": 0,
+      "failures": []
+    },
+    "ur": {
+      "categories": 445,
+      "ids": 2220,
+      "ok": 2220,
+      "failed": 0,
+      "failures": []
+    },
+    "ar": {
+      "categories": 493,
+      "ids": 3574,
+      "ok": 3574,
+      "failed": 0,
+      "failures": []
+    },
+    "hi": {
+      "categories": 449,
+      "ids": 2314,
+      "ok": 2314,
+      "failed": 0,
+      "failures": []
+    }
+  }
+}

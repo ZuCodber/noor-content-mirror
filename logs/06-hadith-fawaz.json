@@ -1,0 +1,155 @@
+{
+  "startedAt": "2026-09-09T10:21:10.049Z",
+  "finishedAt": "2026-09-09T10:21:31.062Z",
+  "events": [
+    {
+      "level": "info",
+      "msg": "Fetching info.json (book/section metadata)...",
+      "t": 1788949270053
+    },
+    {
+      "level": "info",
+      "msg": "eng-bukhari — 4821289B",
+      "t": 1788949277924
+    },
+    {
+      "level": "info",
+      "msg": "urd-muslim — 7301659B",
+      "t": 1788949279759
+    },
+    {
+      "level": "info",
+      "msg": "eng-muslim — 3940216B",
+      "t": 1788949280355
+    },
+    {
+      "level": "info",
+      "msg": "urd-bukhari — 9584861B",
+      "t": 1788949280794
+    },
+    {
+      "level": "info",
+      "msg": "eng-tirmidhi — 2587658B",
+      "t": 1788949282878
+    },
+    {
+      "level": "info",
+      "msg": "ara-muslim — 8329204B",
+      "t": 1788949283304
+    },
+    {
+      "level": "info",
+      "msg": "urd-tirmidhi — 5214642B",
+      "t": 1788949284158
+    },
+    {
+      "level": "info",
+      "msg": "ara-tirmidhi — 6583667B",
+      "t": 1788949284863
+    },
+    {
+      "level": "info",
+      "msg": "eng-abudawud — 3589001B",
+      "t": 1788949285378
+    },
+    {
+      "level": "info",
+      "msg": "urd-abudawud — 5346674B",
+      "t": 1788949285922
+    },
+    {
+      "level": "info",
+      "msg": "ara-bukhari — 9409647B",
+      "t": 1788949285986
+    },
+    {
+      "level": "info",
+      "msg": "ara-abudawud — 6623115B",
+      "t": 1788949286906
+    },
+    {
+      "level": "info",
+      "msg": "eng-nasai — 3328851B",
+      "t": 1788949287872
+    },
+    {
+      "level": "info",
+      "msg": "eng-ibnmajah — 2629738B",
+      "t": 1788949288554
+    },
+    {
+      "level": "info",
+      "msg": "urd-nasai — 3967908B",
+      "t": 1788949288747
+    },
+    {
+      "level": "info",
+      "msg": "urd-ibnmajah — 3731109B",
+      "t": 1788949289079
+    },
+    {
+      "level": "info",
+      "msg": "ara-nasai — 6447219B",
+      "t": 1788949289307
+    },
+    {
+      "level": "info",
+      "msg": "urd-malik — 1355273B",
+      "t": 1788949289563
+    },
+    {
+      "level": "info",
+      "msg": "eng-nawawi — 33930B",
+      "t": 1788949289954
+    },
+    {
+      "level": "info",
+      "msg": "ara-nawawi — 47261B",
+      "t": 1788949290002
+    },
+    {
+      "level": "info",
+      "msg": "ara-malik — 2008602B",
+      "t": 1788949290082
+    },
+    {
+      "level": "info",
+      "msg": "eng-malik — 1473225B",
+      "t": 1788949290434
+    },
+    {
+      "level": "info",
+      "msg": "eng-dehlawi — 6106B",
+      "t": 1788949290504
+    },
+    {
+      "level": "info",
+      "msg": "eng-qudsi — 39414B",
+      "t": 1788949290845
+    },
+    {
+      "level": "info",
+      "msg": "ara-dehlawi — 7183B",
+      "t": 1788949291018
+    },
+    {
+      "level": "info",
+      "msg": "ara-qudsi — 53273B",
+      "t": 1788949291019
+    },
+    {
+      "level": "info",
+      "msg": "ara-ibnmajah — 4971752B",
+      "t": 1788949291062
+    },
+    {
+      "level": "info",
+      "msg": "Done. ok=27 failed=0",
+      "t": 1788949291062
+    }
+  ],
+  "totalJobs": 27,
+  "ok": 27,
+  "failed": 0,
+  "failures": []
+}

@@ -1,0 +1,735 @@
+{
+  "startedAt": "2026-09-09T10:20:20.731Z",
+  "finishedAt": "2026-09-09T10:20:50.649Z",
+  "events": [
+    {
+      "level": "info",
+      "msg": "Fetching edition catalog...",
+      "t": 1788949220746
+    },
+    {
+      "level": "info",
+      "msg": "Total editions: 331. Text editions to mirror: 141",
+      "t": 1788949221407
+    },
+    {
+      "level": "info",
+      "msg": "ar.muyassar (King Fahad Quran Complex) — 3249863B",
+      "t": 1788949222129
+    },
+    {
+      "level": "info",
+      "msg": "cs.hrbek (Preklad I. Hrbek) — 1578436B",
+      "t": 1788949222435
+    },
+    {
+      "level": "info",
+      "msg": "cs.nykl (A. R. Nykl) — 1581557B",
+      "t": 1788949222589
+    },
+    {
+      "level": "info",
+      "msg": "de.aburida (Abu Rida Muhammad ibn Ahmad ibn Rassoul) — 1682332B",
+      "t": 1788949223006
+    },
+    {
+      "level": "info",
+      "msg": "bn.bengali (Muhiuddin Khan) — 2870230B",
+      "t": 1788949223031
+    },
+    {
+      "level": "info",
+      "msg": "az.musayev (Alikhan Musayev) — 1680161B",
+      "t": 1788949223163
+    },
+    {
+      "level": "info",
+      "msg": "de.bubenheim (A. S. F. Bubenheim and N. Elyas) — 1697695B",
+      "t": 1788949223307
+    },
+    {
+      "level": "info",
+      "msg": "az.mammadaliyev (Vasim Mammadaliyev and Ziya Bunyadov) — 2073003B",
+      "t": 1788949223432
+    },
+    {
+      "level": "info",
+      "msg": "de.khoury (Adel Theodor Khoury) — 1665702B",
+      "t": 1788949223503
+    },
+    {
+      "level": "info",
+      "msg": "de.zaidan (Amir Zaidan) — 1724013B",
+      "t": 1788949223620
+    },
+    {
+      "level": "info",
+      "msg": "en.ahmedali (Ahmed Ali) — 1541926B",
+      "t": 1788949223738
+    },
+    {
+      "level": "info",
+      "msg": "en.ahmedraza (Ahmed Raza Khan) — 1670617B",
+      "t": 1788949223905
+    },
+    {
+      "level": "info",
+      "msg": "en.asad (Muhammad Asad) — 1854799B",
+      "t": 1788949224106
+    },
+    {
+      "level": "info",
+      "msg": "dv.divehi (Office of the President of Maldives) — 3390075B",
+      "t": 1788949224228
+    },
+    {
+      "level": "info",
+      "msg": "en.daryabadi (Abdul Majid Daryabadi) — 1594055B",
+      "t": 1788949224291
+    },
+    {
+      "level": "info",
+      "msg": "en.pickthall (Mohammed Marmaduke William Pickthall) — 1577671B",
+      "t": 1788949224371
+    },
+    {
+      "level": "info",
+      "msg": "en.hilali (Muhammad Taqi-ud-Din al-Hilali and Muhammad Muhsin Khan) — 1862125B",
+      "t": 1788949224451
+    },
+    {
+      "level": "info",
+      "msg": "en.arberry (A. J. Arberry) — 1533388B",
+      "t": 1788949224540
+    },
+    {
+      "level": "info",
+      "msg": "en.qaribullah (Hasan al-Fatih Qaribullah and Ahmad Darwish) — 1527869B",
+      "t": 1788949224618
+    },
+    {
+      "level": "info",
+      "msg": "en.sarwar (Muhammad Sarwar) — 1591369B",
+      "t": 1788949224728
+    },
+    {
+      "level": "info",
+      "msg": "en.sahih (Saheeh International) — 1614163B",
+      "t": 1788949224791
+    },
+    {
+      "level": "info",
+      "msg": "fa.ayati (AbdolMohammad Ayati) — 1908485B",
+      "t": 1788949224867
+    },
+    {
+      "level": "info",
+      "msg": "en.yusufali (Abdullah Yusuf Ali) — 1656067B",
+      "t": 1788949225034
+    },
+    {
+      "level": "info",
+      "msg": "ha.gumi (Abubakar Mahmoud Gumi) — 1662866B",
+      "t": 1788949225257
+    },
+    {
+      "level": "info",
+      "msg": "fa.fooladvand (Mohammad Mahdi Fooladvand) — 2051847B",
+      "t": 1788949225418
+    },
+    {
+      "level": "info",
+      "msg": "fa.makarem (Naser Makarem Shirazi) — 2222692B",
+      "t": 1788949225833
+    },
+    {
+      "level": "info",
+      "msg": "fr.hamidullah (Muhammad Hamidullah) — 1660786B",
+      "t": 1788949225947
+    },
+    {
+      "level": "info",
+      "msg": "fa.ghomshei (Mahdi Elahi Ghomshei) — 2294760B",
+      "t": 1788949226071
+    },
+    {
+      "level": "info",
+      "msg": "id.indonesian (Unknown) — 1875466B",
+      "t": 1788949226173
+    },
+    {
+      "level": "info",
+      "msg": "it.piccardo (Hamza Roberto Piccardo) — 1560919B",
+      "t": 1788949226367
+    },
+    {
+      "level": "info",
+      "msg": "ja.japanese (Unknown) — 1972613B",
+      "t": 1788949226465
+    },
+    {
+      "level": "info",
+      "msg": "ml.abdulhameed (Cheriyamundam Abdul Hameed and Kunhi Mohammed Parappoor) — 3944053B",
+      "t": 1788949226790
+    },
+    {
+      "level": "info",
+      "msg": "ku.asan (Burhan Muhammad-Amin) — 3276009B",
+      "t": 1788949226982
+    },
+    {
+      "level": "info",
+      "msg": "hi.hindi (Suhel Farooq Khan and Saifur Rahman Nadwi) — 3125721B",
+      "t": 1788949227187
+    },
+    {
+      "level": "info",
+      "msg": "no.berg (Einar Berg) — 1480370B",
+      "t": 1788949227266
+    },
+    {
+      "level": "info",
+      "msg": "pt.elhayek (Samir El-Hayek) — 1564465B",
+      "t": 1788949227499
+    },
+    {
+      "level": "info",
+      "msg": "pl.bielawskiego (Józefa Bielawskiego) — 1617036B",
+      "t": 1788949227572
+    },
+    {
+      "level": "info",
+      "msg": "ko.korean (Unknown) — 1792567B",
+      "t": 1788949227723
+    },
+    {
+      "level": "info",
+      "msg": "ru.kuliev (Elmir Kuliev) — 2167027B",
+      "t": 1788949227883
+    },
+    {
+      "level": "info",
+      "msg": "ro.grigore (George Grigore) — 1575812B",
+      "t": 1788949227905
+    },
+    {
+      "level": "info",
+      "msg": "nl.keyzer (Salomo Keyzer) — 1715594B",
+      "t": 1788949227983
+    },
+    {
+      "level": "info",
+      "msg": "sq.ahmeti (Sherif Ahmeti) — 1698712B",
+      "t": 1788949228449
+    },
+    {
+      "level": "info",
+      "msg": "ru.osmanov (Magomed-Nuri Osmanovich Osmanov) — 2223390B",
+      "t": 1788949228643
+    },
+    {
+      "level": "info",
+      "msg": "sd.amroti (Taj Mehmood Amroti) — 2110110B",
+      "t": 1788949228667
+    },
+    {
+      "level": "info",
+      "msg": "so.abduh (Mahmud Muhammad Abduh) — 1492581B",
+      "t": 1788949228886
+    },
+    {
+      "level": "info",
+      "msg": "ru.porokhova (V. Porokhova) — 2263424B",
+      "t": 1788949229001
+    },
+    {
+      "level": "info",
+      "msg": "sq.mehdiu (Feti Mehdiu) — 1611819B",
+      "t": 1788949229183
+    },
+    {
+      "level": "info",
+      "msg": "sq.nahi (Hasan Efendi Nahi) — 1729696B",
+      "t": 1788949229626
+    },
+    {
+      "level": "info",
+      "msg": "th.thai (King Fahad Quran Complex) — 3384020B",
+      "t": 1788949229770
+    },
+    {
+      "level": "info",
+      "msg": "sv.bernstrom (Knut Bernström) — 1741439B",
+      "t": 1788949229870
+    },
+    {
+      "level": "info",
+      "msg": "tg.ayati (AbdolMohammad Ayati) — 2086872B",
+      "t": 1788949229948
+    },
+    {
+      "level": "info",
+      "msg": "sw.barwani (Ali Muhsin Al-Barwani) — 1513110B",
+      "t": 1788949230013
+    },
+    {
+      "level": "info",
+      "msg": "tr.diyanet (Diyanet Isleri) — 1730371B",
+      "t": 1788949230276
+    },
+    {
+      "level": "info",
+      "msg": "tr.ozturk (Yasar Nuri Ozturk) — 1649227B",
+      "t": 1788949230456
+    },
+    {
+      "level": "info",
+      "msg": "ta.tamil (Jan Turst Foundation) — 4062549B",
+      "t": 1788949230633
+    },
+    {
+      "level": "info",
+      "msg": "tr.bulac (Alİ Bulaç) — 1680600B",
+      "t": 1788949230696
+    },
+    {
+      "level": "info",
+      "msg": "tr.vakfi (Diyanet Vakfi) — 1648968B",
+      "t": 1788949230881
+    },
+    {
+      "level": "info",
+      "msg": "tr.transliteration (Muhammet Abay) — 1443146B",
+      "t": 1788949230952
+    },
+    {
+      "level": "info",
+      "msg": "tr.golpinarli (Abdulbaki Golpinarli) — 1627080B",
+      "t": 1788949231043
+    },
+    {
+      "level": "info",
+      "msg": "tr.yazir (Elmalili Hamdi Yazir) — 1660894B",
+      "t": 1788949231104
+    },
+    {
+      "level": "info",
+      "msg": "tr.yuksel (Edip Yüksel) — 1519883B",
+      "t": 1788949231322
+    },
+    {
+      "level": "info",
+      "msg": "tr.yildirim (Suat Yildirim) — 1986183B",
+      "t": 1788949231400
+    },
+    {
+      "level": "info",
+      "msg": "tr.ates (Suleyman Ates) — 1624091B",
+      "t": 1788949231509
+    },
+    {
+      "level": "info",
+      "msg": "tt.nugman (Yakub Ibn Nugman) — 2934044B",
+      "t": 1788949231829
+    },
+    {
+      "level": "info",
+      "msg": "ug.saleh (Muhammad Saleh) — 2814527B",
+      "t": 1788949231928
+    },
+    {
+      "level": "info",
+      "msg": "ur.ahmedali (Ahmed Ali) — 2011124B",
+      "t": 1788949232025
+    },
+    {
+      "level": "info",
+      "msg": "ur.jalandhry (Fateh Muhammad Jalandhry) — 2163064B",
+      "t": 1788949232191
+    },
+    {
+      "level": "info",
+      "msg": "ur.jawadi (Syed Zeeshan Haider Jawadi) — 2159456B",
+      "t": 1788949232272
+    },
+    {
+      "level": "info",
+      "msg": "ur.kanzuliman (Ahmed Raza Khan) — 1947905B",
+      "t": 1788949232364
+    },
+    {
+      "level": "info",
+      "msg": "uz.sodik (Muhammad Sodik Muhammad Yusuf) — 3241279B",
+      "t": 1788949232616
+    },
+    {
+      "level": "info",
+      "msg": "ur.qadri (Tahir ul Qadri) — 2549232B",
+      "t": 1788949232773
+    },
+    {
+      "level": "info",
+      "msg": "en.maududi (Abul Ala Maududi) — 1675299B",
+      "t": 1788949232808
+    },
+    {
+      "level": "info",
+      "msg": "en.shakir (Mohammad Habib Shakir) — 1595549B",
+      "t": 1788949232875
+    },
+    {
+      "level": "info",
+      "msg": "quran-simple (Simple) — 2070157B",
+      "t": 1788949233357
+    },
+    {
+      "level": "info",
+      "msg": "fa.ansarian (Hussain Ansarian) — 2361323B",
+      "t": 1788949233381
+    },
+    {
+      "level": "info",
+      "msg": "es.cortes (Julio Cortes) — 1516287B",
+      "t": 1788949233448
+    },
+    {
+      "level": "info",
+      "msg": "en.transliteration (English Transliteration) — 1383619B",
+      "t": 1788949233507
+    },
+    {
+      "level": "info",
+      "msg": "quran-uthmani-min (Uthmani Minimal) — 1897882B",
+      "t": 1788949233979
+    },
+    {
+      "level": "info",
+      "msg": "quran-simple-min (Simple Minimal) — 1892895B",
+      "t": 1788949234057
+    },
+    {
+      "level": "info",
+      "msg": "quran-simple-clean (Simple Clean) — 1506861B",
+      "t": 1788949234112
+    },
+    {
+      "level": "info",
+      "msg": "quran-simple-enhanced (Simple Enhanced) — 2063784B",
+      "t": 1788949234190
+    },
+    {
+      "level": "info",
+      "msg": "quran-uthmani (Uthmani) — 2109200B",
+      "t": 1788949234370
+    },
+    {
+      "level": "info",
+      "msg": "bg.theophanov (Tzvetan Theophanov) — 1996362B",
+      "t": 1788949234489
+    },
+    {
+      "level": "info",
+      "msg": "fa.bahrampour (Abolfazl Bahrampour) — 1945485B",
+      "t": 1788949234628
+    },
+    {
+      "level": "info",
+      "msg": "bs.mlivo (Mustafa Mlivo) — 1466041B",
+      "t": 1788949234648
+    },
+    {
+      "level": "info",
+      "msg": "fa.khorramshahi (Baha'oddin Khorramshahi) — 2010741B",
+      "t": 1788949234733
+    },
+    {
+      "level": "info",
+      "msg": "es.asad (Muhammad Asad - Abdurrasak Pérez) — 1843459B",
+      "t": 1788949234894
+    },
+    {
+      "level": "info",
+      "msg": "fa.mojtabavi (Sayyed Jalaloddin Mojtabavi) — 2104666B",
+      "t": 1788949235293
+    },
+    {
+      "level": "info",
+      "msg": "hi.farooq (Muhammad Farooq Khan and Muhammad Ahmed) — 2894024B",
+      "t": 1788949235390
+    },
+    {
+      "level": "info",
+      "msg": "id.muntakhab (Muhammad Quraish Shihab et al.) — 3257357B",
+      "t": 1788949235818
+    },
+    {
+      "level": "info",
+      "msg": "ms.basmeih (Abdullah Muhammad Basmeih) — 2205470B",
+      "t": 1788949235872
+    },
+    {
+      "level": "info",
+      "msg": "ru.sablukov (Gordy Semyonovich Sablukov) — 2107507B",
+      "t": 1788949236214
+    },
+    {
+      "level": "info",
+      "msg": "ru.abuadel (Abu Adel) — 3524482B",
+      "t": 1788949236485
+    },
+    {
+      "level": "info",
+      "msg": "ur.maududi (Abul A'ala Maududi) — 2270578B",
+      "t": 1788949236595
+    },
+    {
+      "level": "info",
+      "msg": "ru.krachkovsky (Ignaty Yulianovich Krachkovsky) — 2007386B",
+      "t": 1788949236667
+    },
+    {
+      "level": "info",
+      "msg": "zh.majian (Ma Jian) — 1489365B",
+      "t": 1788949236810
+    },
+    {
+      "level": "info",
+      "msg": "bs.korkut (Besim Korkut) — 1513417B",
+      "t": 1788949237630
+    },
+    {
+      "level": "info",
+      "msg": "ru.muntahab (Ministry of Awqaf, Egypt) — 3866936B",
+      "t": 1788949237909
+    },
+    {
+      "level": "info",
+      "msg": "ur.junagarhi (Muhammad Junagarhi) — 2163944B",
+      "t": 1788949238001
+    },
+    {
+      "level": "info",
+      "msg": "fa.moezzi (Mohammad Kazem Moezzi) — 1853575B",
+      "t": 1788949238094
+    },
+    {
+      "level": "info",
+      "msg": "fa.khorramdel (Mostafa Khorramdel) — 5582881B",
+      "t": 1788949238350
+    },
+    {
+      "level": "info",
+      "msg": "zh.jian (Ma Jian) — 1478258B",
+      "t": 1788949238366
+    },
+    {
+      "level": "info",
+      "msg": "ar.jalalayn (Jalal ad-Din al-Mahalli and Jalal ad-Din as-Suyuti) — 2657604B",
+      "t": 1788949238487
+    },
+    {
+      "level": "info",
+      "msg": "quran-tajweed (Tajweed) — 2488551B",
+      "t": 1788949238653
+    },
+    {
+      "level": "info",
+      "msg": "quran-buck (Buck) — 1450257B",
+      "t": 1788949238959
+    },
+    {
+      "level": "info",
+      "msg": "quran-wordbyword (Word By Word) — 3835271B",
+      "t": 1788949238984
+    },
+    {
+      "level": "info",
+      "msg": "zh.mazhonggang (马仲刚) — 1592846B",
+      "t": 1788949239101
+    },
+    {
+      "level": "info",
+      "msg": "quran-corpus-qd (Corpus) — 4916727B",
+      "t": 1788949239750
+    },
+    {
+      "level": "info",
+      "msg": "quran-kids (Kids) — 3835248B",
+      "t": 1788949240154
+    },
+    {
+      "level": "info",
+      "msg": "quran-unicode (Unicode Quran text from Khaled Hosny) — 2116537B",
+      "t": 1788949240223
+    },
+    {
+      "level": "info",
+      "msg": "si.naseemismail (Naseem Isamil and Masoor Maulana, Kaleel) — 3848294B",
+      "t": 1788949240330
+    },
+    {
+      "level": "info",
+      "msg": "en.itani (Clear Qur'an by Talal Itani) — 1510300B",
+      "t": 1788949240513
+    },
+    {
+      "level": "info",
+      "msg": "quran-uthmani-quran-academy (Modified Quran Uthmani Text from the Quran Academy to work with the Kitab font) — 2132942B",
+      "t": 1788949240604
+    },
+    {
+      "level": "info",
+      "msg": "ba.mehanovic (Quran translation by Muhamed Mehanovic) — 1530554B",
+      "t": 1788949240761
+    },
+    {
+      "level": "info",
+      "msg": "quran-wordbyword-2 (Word by Word Transaltion by Dr. Shehnaz Shaikh) — 17397512B",
+      "t": 1788949241357
+    },
+    {
+      "level": "info",
+      "msg": "my.ghazi (Translation by Ghazi Muhammed Hashim) — 6138948B",
+      "t": 1788949242544
+    },
+    {
+      "level": "info",
+      "msg": "en.mubarakpuri (Mubarakpuri) — 1624859B",
+      "t": 1788949242749
+    },
+    {
+      "level": "info",
+      "msg": "ber.mensur (At Mensur) — 1370610B",
+      "t": 1788949243892
+    },
+    {
+      "level": "info",
+      "msg": "ar.waseet (Tafseer Al-Waseet) — 18329253B",
+      "t": 1788949244076
+    },
+    {
+      "level": "info",
+      "msg": "am.sadiq (Sadiq & Sani Habib) — 2055962B",
+      "t": 1788949244174
+    },
+    {
+      "level": "info",
+      "msg": "bn.hoque (Zohurul Hoque) — 3059097B",
+      "t": 1788949244831
+    },
+    {
+      "level": "info",
+      "msg": "en.qarai (Qarai) — 1579511B",
+      "t": 1788949244889
+    },
+    {
+      "level": "info",
+      "msg": "ar.baghawi (Tafseer Al-Baghawi) — 8375860B",
+      "t": 1788949245408
+    },
+    {
+      "level": "info",
+      "msg": "en.wahiduddin (Wahiduddin Khan) — 1576684B",
+      "t": 1788949245472
+    },
+    {
+      "level": "info",
+      "msg": "es.garcia (Garcia) — 1642039B",
+      "t": 1788949245834
+    },
+    {
+      "level": "info",
+      "msg": "es.bornez (Bornez) — 1596544B",
+      "t": 1788949245848
+    },
+    {
+      "level": "info",
+      "msg": "fa.gharaati (Mohsen Gharaati) — 2202351B",
+      "t": 1788949246289
+    },
+    {
+      "level": "info",
+      "msg": "ar.miqbas (Tafseer Tanwir al-Miqbas) — 28728563B",
+      "t": 1788949247960
+    },
+    {
+      "level": "info",
+      "msg": "ar.qurtubi (Tafseer Al Qurtubi) — 20472574B",
+      "t": 1788949248154
+    },
+    {
+      "level": "info",
+      "msg": "ur.najafi (Muhammad Hussain Najafi) — 2331001B",
+      "t": 1788949248270
+    },
+    {
+      "level": "info",
+      "msg": "fa.sadeqi (Mohammad Sadeqi Tehrani) — 2209307B",
+      "t": 1788949248387
+    },
+    {
+      "level": "info",
+      "msg": "fa.safavi (Mohammad Reza Safavi) — 2661656B",
+      "t": 1788949248506
+    },
+    {
+      "level": "info",
+      "msg": "id.jalalayn (Tafsir Jalalayn) — 3471130B",
+      "t": 1788949248655
+    },
+    {
+      "level": "info",
+      "msg": "ml.karakunnu (Karakunnu & Elayavoor) — 3552983B",
+      "t": 1788949248773
+    },
+    {
+      "level": "info",
+      "msg": "nl.siregar (Siregar) — 1693190B",
+      "t": 1788949249020
+    },
+    {
+      "level": "info",
+      "msg": "nl.leemhuis (Leemhuis) — 1625134B",
+      "t": 1788949249039
+    },
+    {
+      "level": "info",
+      "msg": "ps.abdulwali (Abdul Wali) — 2280049B",
+      "t": 1788949249344
+    },
+    {
+      "level": "info",
+      "msg": "ru.transliteration (Russian Transliteration) — 2019056B",
+      "t": 1788949249494
+    },
+    {
+      "level": "info",
+      "msg": "ce.magomedov (Chechen by Magomedov) — 2178748B",
+      "t": 1788949249672
+    },
+    {
+      "level": "info",
+      "msg": "kk.khalifahaltai (Kazakh Translation by Khalifah Altai) — 2331527B",
+      "t": 1788949250037
+    },
+    {
+      "level": "info",
+      "msg": "ru.kuliev-alsaadi (Kuliev & as-Saadi) — 11174245B",
+      "t": 1788949250554
+    },
+    {
+      "level": "info",
+      "msg": "Fetching sajda ayahs (quran-uthmani)...",
+      "t": 1788949250554
+    },
+    {
+      "level": "info",
+      "msg": "Done. ok=141 failed=0",
+      "t": 1788949250649
+    }
+  ],
+  "totalTextEditions": 141,
+  "ok": 141,
+  "failed": 0,
+  "failures": []
+}

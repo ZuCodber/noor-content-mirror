@@ -1,0 +1,17 @@
+{
+  "startedAt": "2026-09-09T10:21:14.154Z",
+  "finishedAt": "2026-09-09T10:21:18.397Z",
+  "events": [
+    {
+      "level": "info",
+      "msg": "TSV — 6322866B",
+      "t": 1788949277194
+    },
+    {
+      "level": "info",
+      "msg": "Parsed 114 chapters of morphology data.",
+      "t": 1788949278397
+    }
+  ],
+  "chapters": 114
+}
