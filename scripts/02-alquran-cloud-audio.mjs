@@ -36,8 +36,8 @@ async function main() {
   if (!fs.existsSync(cataloguePath)) {
     throw new Error('Run 01-alquran-cloud-text.mjs first (needs editions.json)');
   }
-  const catalogue = JSON.parse(fs.readFileSync(cataloguePath, 'utf8'));
-  const audioEditions = catalogue.data.filter(e => e.format === 'audio');
+  const editions = JSON.parse(fs.readFileSync(cataloguePath, 'utf8'));
+  const audioEditions = editions.filter(e => e.format === 'audio');
   const curated = FAMOUS_20.map(name => {
     const ed = audioEditions.find(e => e.identifier === `ar.${name}`);
     if (!ed) throw new Error(`Curated reciter ar.${name} not found in editions.json`);

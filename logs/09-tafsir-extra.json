@@ -1,90 +1,90 @@
 {
-  "startedAt": "2026-09-09T10:21:19.414Z",
-  "finishedAt": "2026-09-09T10:24:44.088Z",
+  "startedAt": "2026-09-09T11:22:25.342Z",
+  "finishedAt": "2026-09-09T11:22:54.594Z",
   "events": [
     {
       "level": "info",
       "msg": "Fetching quranapi.pages.dev (Ibn Kathir + others) per surah...",
-      "t": 1788949279417
+      "t": 1788952945347
     },
     {
       "level": "info",
       "msg": "quranapi.pages.dev — ok=114 failed=0",
-      "t": 1788949290427
+      "t": 1788952945358
     },
     {
       "level": "info",
       "msg": "Fetching spa5k/tafsir_api (12 curated tafsirs) per surah...",
-      "t": 1788949290428
+      "t": 1788952945358
     },
     {
       "level": "info",
       "msg": "spa5k en-tafsir-maarif-ul-quran — ok=114 failed=0",
-      "t": 1788949295536
+      "t": 1788952945364
     },
     {
       "level": "info",
       "msg": "spa5k en-al-jalalayn — ok=114 failed=0",
-      "t": 1788949300856
+      "t": 1788952945369
     },
     {
       "level": "info",
       "msg": "spa5k en-tafisr-ibn-kathir — ok=114 failed=0",
-      "t": 1788949309349
+      "t": 1788952945374
     },
     {
       "level": "info",
       "msg": "spa5k en-tazkirul-quran — ok=114 failed=0",
-      "t": 1788949313021
+      "t": 1788952945378
     },
     {
       "level": "info",
       "msg": "spa5k en-tafsir-ibn-abbas — ok=114 failed=0",
-      "t": 1788949315882
+      "t": 1788952945383
     },
     {
       "level": "info",
       "msg": "spa5k en-tafsir-al-mukhtasar — ok=114 failed=0",
-      "t": 1788949321701
+      "t": 1788952945387
     },
     {
       "level": "info",
-      "msg": "spa5k ur-tafsir-fe-zalul-quran-syed-qatab — ok=0 failed=114",
-      "t": 1788949347413
+      "msg": "spa5k tafsir-fe-zalul-quran-syed-qatab — ok=114 failed=0",
+      "t": 1788952974548
     },
     {
       "level": "info",
       "msg": "spa5k ur-tafsir-bayan-ul-quran — ok=114 failed=0",
-      "t": 1788949352989
+      "t": 1788952974567
     },
     {
       "level": "info",
       "msg": "spa5k ur-tafseer-ibn-e-kaseer — ok=114 failed=0",
-      "t": 1788949361286
+      "t": 1788952974577
     },
     {
       "level": "info",
       "msg": "spa5k ur-tazkirul-quran — ok=114 failed=0",
-      "t": 1788949398841
+      "t": 1788952974582
     },
     {
       "level": "info",
       "msg": "spa5k ur-tafsir-as-saadi-urdu — ok=114 failed=0",
-      "t": 1788949435728
+      "t": 1788952974588
     },
     {
       "level": "info",
       "msg": "spa5k hindi-mokhtasar — ok=114 failed=0",
-      "t": 1788949484088
+      "t": 1788952974594
     },
     {
       "level": "info",
-      "msg": "ALL DONE. ibnKathir ok=114 failed=0; spa5k ok=1254 failed=114",
-      "t": 1788949484088
+      "msg": "ALL DONE. ibnKathir ok=114 failed=0; spa5k ok=1368 failed=0",
+      "t": 1788952974594
     }
   ],
   "ikOk": 114,
   "ikFailed": 0,
-  "spa5kOk": 1254,
-  "spa5kFailed": 114
+  "spa5kOk": 1368,
+  "spa5kFailed": 0
 }

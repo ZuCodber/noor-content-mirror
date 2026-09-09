@@ -16,9 +16,11 @@ to refresh it.
 data/
   quran/
     alquran-cloud/
-      editions.json              # full catalog: all 331 editions (text+audio)
+      editions.json              # full catalog: all 331 editions (text+audio) — unwrapped array
       text/{identifier}.json     # full mushaf, ONE file per text edition (141)
-      audio/{identifier}/128/{surah}.mp3   # per-surah audio, curated unique reciters
+                                  # shape: { surahs: SurahFull[], edition } — unwrapped
+                                  # (see "Shape notes" below re: the {code,status,data} envelope)
+      audio/{identifier}/128/{surah}.mp3   # per-surah audio, curated "famous 20" reciters
     foundation/                  # api.quran.com/api/v4 — richer per-ayah data
       chapters.json              # 114 chapters, full metadata
       resources/                 # recitations.json, translations.json, tafsirs.json, languages.json
@@ -46,6 +48,7 @@ data/
 
 logs/                             # one JSON summary per script run + failure lists
 scripts/                          # the downloaders (Node 20+, no dependencies)
+  lib/search.mjs                  # local search — see "Local search" below
 ```
 
 ## Sources mirrored
@@ -60,13 +63,59 @@ scripts/                          # the downloaders (Node 20+, no dependencies)
 | `quranapi.pages.dev` | Ibn Kathir (+ other authors) tafsir, per surah | none |
 | `cdn.jsdelivr.net/gh/spa5k/tafsir_api` | 12 curated tafsirs (en/ur/hi), per surah | none |
 
-**Not mirrored** (out of scope for this pass — video lectures, not
-Quran/Hadith scripture data): YouTube lecture videos, the Cloudflare-hosted
-audio-lecture proxy, and the Baseerat insights' archive.org audio links.
-Also deferred: individual **word-audio** files (tens of thousands of tiny
-per-word mp3s referenced inside the word-by-word JSON) — the JSON already
-records each word's remote `audio_url`; only the files themselves aren't
-bulk-downloaded. Ask if you want that phase too.
+**Not mirrored — out of scope by choice** (video lectures, not Quran/Hadith
+scripture data): YouTube lecture videos, the Cloudflare-hosted audio-lecture
+proxy, and the Baseerat insights' archive.org audio links. Also deferred:
+individual **word-audio** files (tens of thousands of tiny per-word mp3s
+referenced inside the word-by-word JSON) — the JSON already records each
+word's remote `audio_url`; only the files themselves aren't bulk-downloaded.
+
+**Not mirrored — blocked upstream, not a choice**: `AudioCDN.ayahImage()`
+(rendered PNG of an ayah's Arabic text, `cdn.islamic.network/quran/images/…`)
+currently returns `403 AccessDenied` straight from their storage bucket —
+verified live 2026-09-09, not a rate limit. This may already be broken in
+the live app too, independent of this mirror. Nothing to download until
+their infra is fixed; re-run `scripts/01` to pick it up whenever it is.
+
+## Local search (no data to download — a code gap, now closed)
+
+Both live search endpoints (`AlQuran Cloud GET /search/:keyword/:surah/:edition`
+and `Quran Foundation GET /search`) return results computed on demand — there's
+no fixed resource to download for arbitrary future keywords. `scripts/lib/search.mjs`
+closes this with real local implementations against the text already mirrored:
+
+- `searchAlQuranCloud(keyword, surah, edition)` — exact drop-in: AlQuran
+  Cloud's own search is a plain case-insensitive substring match (not
+  fuzzy/ranked), so scanning the local edition file reproduces identical
+  results, in the same `{ count, matches }` shape `SearchAPI.search` returns.
+- `searchQuranFoundation(q, size, page)` — approximate: Quran Foundation's
+  real search is a ranked/fuzzy Elasticsearch-backed engine, which can't be
+  faithfully reproduced offline (the engine itself is what would be gone).
+  This scans Uthmani text + every downloaded translation for a substring
+  match instead — covers "find this phrase" but without their
+  ranking/stemming.
+
+Both verified live against real queries (2026-09-09) — `searchAlQuranCloud('mercy')`
+returns 143 real matches, `searchQuranFoundation('mercy')` returns 222.
+
+## Shape notes (for whoever wires this in)
+
+- AlQuran Cloud's raw API wraps every response as `{code, status, data}` —
+  pure transport boilerplate once a file has downloaded successfully. All
+  files under `data/quran/alquran-cloud/` are stored **already unwrapped**
+  (just the `data` payload), matching what the app's own `apiFetch()` helper
+  returns to callers — not the raw HTTP response.
+- The real `/quran/{edition}` shape is `{ surahs: SurahFull[], edition }`
+  (grouped by surah, each with its own `ayahs[]`) — **not** the flat
+  `{ ayahs, edition }` that `QuranAPI.getFull()`'s own TypeScript signature
+  in `quranApi.ts` declares. Harmless today (nothing in the app currently
+  calls `getFull()`), but a real mismatch if anyone ever does — worth a
+  one-line fix upstream.
+- Quran Foundation (`data/quran/foundation/`) files are stored in their
+  real, natural single-key-wrapped shape (`{chapters: [...]}`,
+  `{translations: [...]}`, etc.) exactly as the live API returns them —
+  the app's own `ResourcesAPI`/`ChaptersAPI` unwrap this with a plain
+  `.then(r => r.chapters)`, so a local reader does the same one-line thing.
 
 ## Audio
 
@@ -111,6 +160,7 @@ node scripts/06-hadith-fawaz.mjs
 node scripts/07-hadith-hadeethenc.mjs
 node scripts/08-morphology.mjs
 node scripts/09-tafsir-extra.mjs
+node scripts/10-quran-foundation-audio-timestamps.mjs
 ```
 
 ## Status

@@ -16,20 +16,29 @@ async function main() {
   ensureDirSync(DATA);
   log.info('Fetching edition catalog...');
   const cataloguePath = path.join(DATA, 'editions.json');
-  await saveJson(`${BASE}/edition`, cataloguePath, { force: true });
-  const catalogue = JSON.parse(await (await import('node:fs/promises')).readFile(cataloguePath, 'utf8'));
-  const editions = catalogue.data;
+  await saveJson(`${BASE}/edition`, cataloguePath, { force: true, transform: j => j.data });
+  const editions = JSON.parse(await (await import('node:fs/promises')).readFile(cataloguePath, 'utf8'));
   const textEditions = editions.filter(e => e.format === 'text');
   log.info(`Total editions: ${editions.length}. Text editions to mirror: ${textEditions.length}`);
 
+  // NOTE: AlQuran Cloud wraps every response as {code, status, data: ...} —
+  // the app's own apiFetch() helper unwraps this before returning to
+  // callers, so for a genuine drop-in local mirror we store the unwrapped
+  // `data` payload directly (transform below), not the raw envelope.
+  // Also worth flagging: the real /quran/{edition} shape is
+  // { surahs: SurahFull[], edition } (grouped by surah, each with its own
+  // ayahs[]) — NOT the flat { ayahs, edition } that QuranAPI.getFull()'s own
+  // TypeScript signature in quranApi.ts declares. Harmless in practice
+  // (nothing in the app currently calls getFull()), but a real mismatch if
+  // anyone ever does.
   const { ok, failed, failures } = await pool(textEditions, 6, async (ed) => {
     const dest = path.join(DATA, 'text', `${ed.identifier}.json`);
-    const r = await saveJson(`${BASE}/quran/${ed.identifier}`, dest);
+    const r = await saveJson(`${BASE}/quran/${ed.identifier}`, dest, { transform: j => j.data });
     log.info(`${ed.identifier} (${ed.englishName}) — ${r.skipped ? 'skip' : `${r.bytes}B`}`);
   });
 
   log.info('Fetching sajda ayahs (quran-uthmani)...');
-  await saveJson(`${BASE}/sajda/quran-uthmani`, path.join(ROOT, 'data', 'quran', 'sajda.json'));
+  await saveJson(`${BASE}/sajda/quran-uthmani`, path.join(ROOT, 'data', 'quran', 'sajda.json'), { transform: j => j.data });
 
   log.info(`Done. ok=${ok} failed=${failed}`);
   if (failed) log.error(JSON.stringify(failures, null, 2));

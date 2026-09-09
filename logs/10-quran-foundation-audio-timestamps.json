@@ -1,0 +1,44 @@
+{
+  "startedAt": "2026-09-09T11:32:32.589Z",
+  "finishedAt": "2026-09-09T11:35:30.797Z",
+  "events": [
+    {
+      "level": "info",
+      "msg": "timestamps reciter 7 — ok=114 failed=0",
+      "t": 1788953559205
+    },
+    {
+      "level": "info",
+      "msg": "timestamps reciter 3 — ok=114 failed=0",
+      "t": 1788953593190
+    },
+    {
+      "level": "info",
+      "msg": "timestamps reciter 6 — ok=114 failed=0",
+      "t": 1788953629605
+    },
+    {
+      "level": "info",
+      "msg": "timestamps reciter 9 — ok=114 failed=0",
+      "t": 1788953636087
+    },
+    {
+      "level": "info",
+      "msg": "timestamps reciter 4 — ok=114 failed=0",
+      "t": 1788953704731
+    },
+    {
+      "level": "info",
+      "msg": "timestamps reciter 5 — ok=114 failed=0",
+      "t": 1788953730796
+    },
+    {
+      "level": "info",
+      "msg": "DONE. ok=684 failed=0",
+      "t": 1788953730797
+    }
+  ],
+  "tsOk": 684,
+  "tsFailed": 0,
+  "allFailures": []
+}
