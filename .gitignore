@@ -14,7 +14,8 @@ data/quran/foundation/audio/
 # redirects are just console noise from this session's background jobs.
 logs/_run-*.log
 logs/_retry-*.log
-logs/_git-add.log
+logs/_git-add*.log
+logs/_commit*.log
 logs/*.progress.json
 
 node_modules/
