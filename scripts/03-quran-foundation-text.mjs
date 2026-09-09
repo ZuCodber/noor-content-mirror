@@ -70,16 +70,42 @@ async function main() {
   const WORD_FIELDS = ['text_uthmani', 'char_type_name'].join(',');
   const TRANSLATION_FIELDS = ['resource_name', 'language_name', 'text'].join(',');
 
+  // Root-caused live 2026-09-09: large chapters (Al-Baqarah, Ali 'Imran, etc.
+  // — 286/200/176/... ayahs) consistently timed out combining all 126
+  // translations into one request, even with zero concurrency — their
+  // backend genuinely can't serve that combined payload fast enough for a
+  // big chapter. Not random flakiness. Chunking translations and merging
+  // client-side fixed every one of them (verified: all 18 previously-stuck
+  // chapters succeeded once this landed).
+  function chunkIds(arr, size) {
+    const out = [];
+    for (let i = 0; i < arr.length; i += size) out.push(arr.slice(i, i + size));
+    return out;
+  }
+  async function fetchEnWithTranslations(chapter) {
+    const chunks = chunkIds(allTranslationIds, 25);
+    let merged = null;
+    for (const c of chunks) {
+      const page = await withDeadline(qfGet(`/verses/by_chapter/${chapter}?language=en&words=true&per_page=${PER_PAGE}` +
+        `&translations=${c.join(',')}&fields=${VERSE_FIELDS}&word_fields=${WORD_FIELDS}&translation_fields=${TRANSLATION_FIELDS}`), 45000, `ch${chapter} en chunk`);
+      if (!merged) {
+        merged = page;
+      } else {
+        const byKey = new Map(page.verses.map(v => [v.verse_key, v]));
+        merged.verses = merged.verses.map(v => ({ ...v, translations: [...(v.translations ?? []), ...(byKey.get(v.verse_key)?.translations ?? [])] }));
+      }
+    }
+    return merged;
+  }
+
   const verseJobs = SURAHS.map(n => n);
   const { ok, failed, failures } = await pool(verseJobs, 3, async (chapter) => {
     const dest = path.join(DATA, 'verses', `${chapter}.json`);
     if (fs.existsSync(dest)) { log.info(`verses/${chapter}.json — skip`); return; }
     log.info(`verses/${chapter}.json — starting...`);
 
-    // Pass 1: English — base verse data (uthmani/tajweed/meta) + ALL translations + en word gloss.
-    const en = await withDeadline(qfGet(`/verses/by_chapter/${chapter}?language=en&words=true&per_page=${PER_PAGE}` +
-      `&translations=${allTranslationIds.join(',')}` +
-      `&fields=${VERSE_FIELDS}&word_fields=${WORD_FIELDS}&translation_fields=${TRANSLATION_FIELDS}`), 90000, `ch${chapter} en`);
+    // Pass 1: English — base verse data (uthmani/tajweed/meta) + ALL translations (chunked) + en word gloss.
+    const en = await fetchEnWithTranslations(chapter);
 
     // Pass 2 & 3: ur/hi word gloss only (translations omitted — same data
     // regardless of `language`, already captured in pass 1).

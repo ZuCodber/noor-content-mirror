@@ -1,634 +1,634 @@
 {
-  "startedAt": "2026-09-09T12:20:44.367Z",
-  "finishedAt": "2026-09-09T12:23:26.288Z",
+  "startedAt": "2026-09-09T12:59:09.827Z",
+  "finishedAt": "2026-09-09T13:01:30.303Z",
   "events": [
     {
       "level": "info",
       "msg": "Fetching chapters + resources catalogs...",
-      "t": 1788956444371
+      "t": 1788958749830
     },
     {
       "level": "info",
       "msg": "Translation resources to embed per verse: 126",
-      "t": 1788956445686
+      "t": 1788958751614
     },
     {
       "level": "info",
       "msg": "verses/1.json — skip",
-      "t": 1788956445687
+      "t": 1788958751617
     },
     {
       "level": "info",
       "msg": "verses/2.json — starting...",
-      "t": 1788956445687
+      "t": 1788958751618
     },
     {
       "level": "info",
       "msg": "verses/3.json — starting...",
-      "t": 1788956445689
+      "t": 1788958751622
     },
     {
       "level": "info",
       "msg": "verses/4.json — starting...",
-      "t": 1788956445694
+      "t": 1788958751632
     },
     {
       "level": "info",
       "msg": "verses/5.json — starting...",
-      "t": 1788956488000
+      "t": 1788958791748
     },
     {
       "level": "info",
       "msg": "verses/6.json — starting...",
-      "t": 1788956488071
+      "t": 1788958791760
     },
     {
       "level": "info",
       "msg": "verses/7.json — starting...",
-      "t": 1788956488074
+      "t": 1788958791814
     },
     {
       "level": "info",
       "msg": "verses/8.json — skip",
-      "t": 1788956525462
+      "t": 1788958829197
     },
     {
       "level": "info",
       "msg": "verses/9.json — starting...",
-      "t": 1788956525462
+      "t": 1788958829198
     },
     {
       "level": "info",
-      "msg": "verses/10.json — starting...",
-      "t": 1788956525468
+      "msg": "verses/10.json — skip",
+      "t": 1788958829213
     },
     {
       "level": "info",
       "msg": "verses/11.json — skip",
-      "t": 1788956525556
+      "t": 1788958829213
     },
     {
       "level": "info",
       "msg": "verses/12.json — skip",
-      "t": 1788956525557
+      "t": 1788958829214
     },
     {
       "level": "info",
       "msg": "verses/13.json — skip",
-      "t": 1788956525557
+      "t": 1788958829215
     },
     {
       "level": "info",
       "msg": "verses/14.json — skip",
-      "t": 1788956525557
+      "t": 1788958829215
     },
     {
       "level": "info",
       "msg": "verses/15.json — skip",
-      "t": 1788956525557
+      "t": 1788958829216
     },
     {
       "level": "info",
       "msg": "verses/16.json — skip",
-      "t": 1788956525557
+      "t": 1788958829217
     },
     {
       "level": "info",
       "msg": "verses/17.json — skip",
-      "t": 1788956525558
+      "t": 1788958829217
     },
     {
       "level": "info",
       "msg": "verses/18.json — skip",
-      "t": 1788956525558
+      "t": 1788958829218
     },
     {
       "level": "info",
       "msg": "verses/19.json — skip",
-      "t": 1788956525558
+      "t": 1788958829218
     },
     {
       "level": "info",
       "msg": "verses/20.json — skip",
-      "t": 1788956525558
+      "t": 1788958829219
     },
     {
       "level": "info",
       "msg": "verses/21.json — skip",
-      "t": 1788956525558
+      "t": 1788958829219
     },
     {
       "level": "info",
       "msg": "verses/22.json — skip",
-      "t": 1788956525558
+      "t": 1788958829220
     },
     {
       "level": "info",
       "msg": "verses/23.json — skip",
-      "t": 1788956525559
+      "t": 1788958829220
     },
     {
       "level": "info",
       "msg": "verses/24.json — skip",
-      "t": 1788956525559
+      "t": 1788958829221
     },
     {
       "level": "info",
       "msg": "verses/25.json — skip",
-      "t": 1788956525559
+      "t": 1788958829221
     },
     {
       "level": "info",
       "msg": "verses/26.json — skip",
-      "t": 1788956525559
+      "t": 1788958829222
     },
     {
       "level": "info",
       "msg": "verses/27.json — skip",
-      "t": 1788956525559
+      "t": 1788958829222
     },
     {
       "level": "info",
       "msg": "verses/28.json — skip",
-      "t": 1788956525559
+      "t": 1788958829223
     },
     {
       "level": "info",
       "msg": "verses/29.json — skip",
-      "t": 1788956525559
+      "t": 1788958829224
     },
     {
       "level": "info",
       "msg": "verses/30.json — skip",
-      "t": 1788956525559
+      "t": 1788958829224
     },
     {
       "level": "info",
       "msg": "verses/31.json — skip",
-      "t": 1788956525560
+      "t": 1788958829224
     },
     {
       "level": "info",
       "msg": "verses/32.json — skip",
-      "t": 1788956525560
+      "t": 1788958829225
     },
     {
       "level": "info",
       "msg": "verses/33.json — skip",
-      "t": 1788956525560
+      "t": 1788958829226
     },
     {
       "level": "info",
       "msg": "verses/34.json — skip",
-      "t": 1788956525560
+      "t": 1788958829226
     },
     {
       "level": "info",
       "msg": "verses/35.json — skip",
-      "t": 1788956525560
+      "t": 1788958829227
     },
     {
       "level": "info",
       "msg": "verses/36.json — skip",
-      "t": 1788956525560
+      "t": 1788958829227
     },
     {
       "level": "info",
       "msg": "verses/37.json — skip",
-      "t": 1788956525560
+      "t": 1788958829228
     },
     {
       "level": "info",
       "msg": "verses/38.json — skip",
-      "t": 1788956525561
+      "t": 1788958829228
     },
     {
       "level": "info",
       "msg": "verses/39.json — skip",
-      "t": 1788956525561
+      "t": 1788958829228
     },
     {
       "level": "info",
       "msg": "verses/40.json — skip",
-      "t": 1788956525561
+      "t": 1788958829229
     },
     {
       "level": "info",
       "msg": "verses/41.json — skip",
-      "t": 1788956525561
+      "t": 1788958829229
     },
     {
       "level": "info",
       "msg": "verses/42.json — skip",
-      "t": 1788956525561
+      "t": 1788958829229
     },
     {
       "level": "info",
       "msg": "verses/43.json — skip",
-      "t": 1788956525561
+      "t": 1788958829230
     },
     {
       "level": "info",
       "msg": "verses/44.json — skip",
-      "t": 1788956525561
+      "t": 1788958829230
     },
     {
       "level": "info",
       "msg": "verses/45.json — skip",
-      "t": 1788956525562
+      "t": 1788958829231
     },
     {
       "level": "info",
       "msg": "verses/46.json — skip",
-      "t": 1788956525562
+      "t": 1788958829231
     },
     {
       "level": "info",
       "msg": "verses/47.json — skip",
-      "t": 1788956525562
+      "t": 1788958829231
     },
     {
       "level": "info",
       "msg": "verses/48.json — skip",
-      "t": 1788956525562
+      "t": 1788958829232
     },
     {
       "level": "info",
       "msg": "verses/49.json — starting...",
-      "t": 1788956525562
+      "t": 1788958829232
     },
     {
       "level": "info",
       "msg": "verses/50.json — skip",
-      "t": 1788956535168
+      "t": 1788958829284
     },
     {
       "level": "info",
       "msg": "verses/51.json — skip",
-      "t": 1788956535168
+      "t": 1788958829285
     },
     {
       "level": "info",
       "msg": "verses/52.json — skip",
-      "t": 1788956535168
+      "t": 1788958829285
     },
     {
       "level": "info",
       "msg": "verses/53.json — skip",
-      "t": 1788956535168
+      "t": 1788958829286
     },
     {
       "level": "info",
       "msg": "verses/54.json — skip",
-      "t": 1788956535169
+      "t": 1788958829286
     },
     {
       "level": "info",
       "msg": "verses/55.json — skip",
-      "t": 1788956535169
+      "t": 1788958829287
     },
     {
       "level": "info",
       "msg": "verses/56.json — skip",
-      "t": 1788956535169
+      "t": 1788958829287
     },
     {
       "level": "info",
       "msg": "verses/57.json — skip",
-      "t": 1788956535169
+      "t": 1788958829287
     },
     {
       "level": "info",
       "msg": "verses/58.json — starting...",
-      "t": 1788956535169
+      "t": 1788958829288
     },
     {
       "level": "info",
       "msg": "verses/59.json — starting...",
-      "t": 1788956555848
+      "t": 1788958853388
     },
     {
       "level": "info",
       "msg": "verses/60.json — starting...",
-      "t": 1788956571866
+      "t": 1788958853398
     },
     {
       "level": "info",
       "msg": "verses/61.json — starting...",
-      "t": 1788956571876
+      "t": 1788958861418
     },
     {
       "level": "info",
       "msg": "verses/62.json — skip",
-      "t": 1788956571881
+      "t": 1788958867810
     },
     {
       "level": "info",
       "msg": "verses/63.json — skip",
-      "t": 1788956571881
+      "t": 1788958867811
     },
     {
       "level": "info",
       "msg": "verses/64.json — starting...",
-      "t": 1788956571882
+      "t": 1788958867811
     },
     {
       "level": "info",
       "msg": "verses/65.json — starting...",
-      "t": 1788956586561
+      "t": 1788958867991
     },
     {
       "level": "info",
       "msg": "verses/66.json — starting...",
-      "t": 1788956586690
+      "t": 1788958870999
     },
     {
       "level": "info",
       "msg": "verses/67.json — skip",
-      "t": 1788956586855
+      "t": 1788958877407
     },
     {
       "level": "info",
       "msg": "verses/68.json — skip",
-      "t": 1788956586856
+      "t": 1788958877408
     },
     {
       "level": "info",
       "msg": "verses/69.json — skip",
-      "t": 1788956586856
+      "t": 1788958877409
     },
     {
       "level": "info",
       "msg": "verses/70.json — skip",
-      "t": 1788956586857
+      "t": 1788958877409
     },
     {
       "level": "info",
       "msg": "verses/71.json — starting...",
-      "t": 1788956586857
+      "t": 1788958877410
     },
     {
       "level": "info",
       "msg": "verses/72.json — starting...",
-      "t": 1788956596079
+      "t": 1788958877629
     },
     {
       "level": "info",
       "msg": "verses/73.json — starting...",
-      "t": 1788956596485
+      "t": 1788958880617
     },
     {
       "level": "info",
       "msg": "verses/74.json — skip",
-      "t": 1788956597019
+      "t": 1788958887000
     },
     {
       "level": "info",
       "msg": "verses/75.json — skip",
-      "t": 1788956597019
+      "t": 1788958887001
     },
     {
       "level": "info",
       "msg": "verses/76.json — skip",
-      "t": 1788956597019
+      "t": 1788958887002
     },
     {
       "level": "info",
       "msg": "verses/77.json — skip",
-      "t": 1788956597019
+      "t": 1788958887003
     },
     {
       "level": "info",
       "msg": "verses/78.json — skip",
-      "t": 1788956597019
+      "t": 1788958887003
     },
     {
       "level": "info",
       "msg": "verses/79.json — skip",
-      "t": 1788956597020
+      "t": 1788958887004
     },
     {
       "level": "info",
       "msg": "verses/80.json — skip",
-      "t": 1788956597020
+      "t": 1788958887006
     },
     {
       "level": "info",
       "msg": "verses/81.json — skip",
-      "t": 1788956597020
+      "t": 1788958887006
     },
     {
       "level": "info",
       "msg": "verses/82.json — skip",
-      "t": 1788956597020
+      "t": 1788958887007
     },
     {
       "level": "info",
       "msg": "verses/83.json — skip",
-      "t": 1788956597020
+      "t": 1788958887007
     },
     {
       "level": "info",
       "msg": "verses/84.json — skip",
-      "t": 1788956597020
+      "t": 1788958887007
     },
     {
       "level": "info",
       "msg": "verses/85.json — skip",
-      "t": 1788956597020
+      "t": 1788958887008
     },
     {
       "level": "info",
       "msg": "verses/86.json — skip",
-      "t": 1788956597020
+      "t": 1788958887009
     },
     {
       "level": "info",
       "msg": "verses/87.json — skip",
-      "t": 1788956597020
+      "t": 1788958887009
     },
     {
       "level": "info",
       "msg": "verses/88.json — skip",
-      "t": 1788956597021
+      "t": 1788958887010
     },
     {
       "level": "info",
       "msg": "verses/89.json — skip",
-      "t": 1788956597021
+      "t": 1788958887010
     },
     {
       "level": "info",
       "msg": "verses/90.json — skip",
-      "t": 1788956597021
+      "t": 1788958887011
     },
     {
       "level": "info",
       "msg": "verses/91.json — skip",
-      "t": 1788956597021
+      "t": 1788958887011
     },
     {
       "level": "info",
       "msg": "verses/92.json — skip",
-      "t": 1788956597021
+      "t": 1788958887012
     },
     {
       "level": "info",
       "msg": "verses/93.json — skip",
-      "t": 1788956597021
+      "t": 1788958887012
     },
     {
       "level": "info",
       "msg": "verses/94.json — skip",
-      "t": 1788956597021
+      "t": 1788958887013
     },
     {
       "level": "info",
       "msg": "verses/95.json — skip",
-      "t": 1788956597021
+      "t": 1788958887013
     },
     {
       "level": "info",
       "msg": "verses/96.json — skip",
-      "t": 1788956597021
+      "t": 1788958887014
     },
     {
       "level": "info",
       "msg": "verses/97.json — skip",
-      "t": 1788956597022
+      "t": 1788958887014
     },
     {
       "level": "info",
       "msg": "verses/98.json — skip",
-      "t": 1788956597022
+      "t": 1788958887015
     },
     {
       "level": "info",
       "msg": "verses/99.json — skip",
-      "t": 1788956597022
+      "t": 1788958887015
     },
     {
       "level": "info",
       "msg": "verses/100.json — skip",
-      "t": 1788956597022
+      "t": 1788958887016
     },
     {
       "level": "info",
       "msg": "verses/101.json — skip",
-      "t": 1788956597022
+      "t": 1788958887016
     },
     {
       "level": "info",
       "msg": "verses/102.json — skip",
-      "t": 1788956597022
+      "t": 1788958887017
     },
     {
       "level": "info",
       "msg": "verses/103.json — skip",
-      "t": 1788956597022
+      "t": 1788958887019
     },
     {
       "level": "info",
       "msg": "verses/104.json — skip",
-      "t": 1788956597022
+      "t": 1788958887019
     },
     {
       "level": "info",
       "msg": "verses/105.json — skip",
-      "t": 1788956597022
+      "t": 1788958887020
     },
     {
       "level": "info",
       "msg": "verses/106.json — skip",
-      "t": 1788956597022
+      "t": 1788958887020
     },
     {
       "level": "info",
       "msg": "verses/107.json — skip",
-      "t": 1788956597023
+      "t": 1788958887021
     },
     {
       "level": "info",
       "msg": "verses/108.json — skip",
-      "t": 1788956597023
+      "t": 1788958887021
     },
     {
       "level": "info",
       "msg": "verses/109.json — skip",
-      "t": 1788956597023
+      "t": 1788958887022
     },
     {
       "level": "info",
       "msg": "verses/110.json — skip",
-      "t": 1788956597023
+      "t": 1788958887022
     },
     {
       "level": "info",
       "msg": "verses/111.json — skip",
-      "t": 1788956597023
+      "t": 1788958887023
     },
     {
       "level": "info",
       "msg": "verses/112.json — skip",
-      "t": 1788956597023
+      "t": 1788958887023
     },
     {
       "level": "info",
       "msg": "verses/113.json — skip",
-      "t": 1788956597023
+      "t": 1788958887024
     },
     {
       "level": "info",
       "msg": "verses/114.json — skip",
-      "t": 1788956597023
+      "t": 1788958887024
     },
     {
       "level": "info",
-      "msg": "Verses done. ok=95 failed=19",
-      "t": 1788956606245
+      "msg": "Verses done. ok=96 failed=18",
+      "t": 1788958890289
     },
     {
       "level": "info",
       "msg": "Script uthmani_simple — ok=114 failed=0",
-      "t": 1788956606262
+      "t": 1788958890294
     },
     {
       "level": "info",
       "msg": "Script indopak — ok=114 failed=0",
-      "t": 1788956606275
+      "t": 1788958890299
     },
     {
       "level": "info",
       "msg": "Script imlaei — ok=114 failed=0",
-      "t": 1788956606288
+      "t": 1788958890303
     }
   ],
-  "chaptersOk": 95,
-  "chaptersFailed": 19,
+  "chaptersOk": 96,
+  "chaptersFailed": 18,
   "failures": [
     {
-      "item": 3,
-      "error": "HTTP 503: https://api.quran.com/api/v4/verses/by_chapter/3?language=en&words=true&per_page=300&translations=85,149,84,95,78,19,79,80,81,83,86,76,75,22,20,203,234,57,54,156,151,158,97,136,135,139,35,134,153,161,163,162,210,211,217,229,55,143,141,140,214,227,226,233,225,224,232,235,231,230,223,222,220,144,88,87,50,49,48,128,45,77,39,36,30,26,103,74,23,101,53,47,44,42,41,237,106,236,238,125,124,46,113,112,38,89,56,32,108,37,43,51,111,115,31,29,208,209,133,25,221,219,52,213,199,218,228,126,122,120,127,118,109,27,33,831,819,771,785,840,795,779,782,796,798,774&fields=text_uthmani,text_uthmani_tajweed,verse_key,verse_number,juz_number,hizb_number,page_number&word_fields=text_uthmani,char_type_name&translation_fields=resource_name,language_name,text"
+      "item": 2,
+      "error": "HTTP 503: https://api.quran.com/api/v4/verses/by_chapter/2?language=en&words=true&per_page=300&translations=85,149,84,95,78,19,79,80,81,83,86,76,75,22,20,203,234,57,54,156,151,158,97,136,135,139,35,134,153,161,163,162,210,211,217,229,55,143,141,140,214,227,226,233,225,224,232,235,231,230,223,222,220,144,88,87,50,49,48,128,45,77,39,36,30,26,103,74,23,101,53,47,44,42,41,237,106,236,238,125,124,46,113,112,38,89,56,32,108,37,43,51,111,115,31,29,208,209,133,25,221,219,52,213,199,218,228,126,122,120,127,118,109,27,33,831,819,771,785,840,795,779,782,796,798,774&fields=text_uthmani,text_uthmani_tajweed,verse_key,verse_number,juz_number,hizb_number,page_number&word_fields=text_uthmani,char_type_name&translation_fields=resource_name,language_name,text"
     },
     {
       "item": 4,
       "error": "HTTP 503: https://api.quran.com/api/v4/verses/by_chapter/4?language=en&words=true&per_page=300&translations=85,149,84,95,78,19,79,80,81,83,86,76,75,22,20,203,234,57,54,156,151,158,97,136,135,139,35,134,153,161,163,162,210,211,217,229,55,143,141,140,214,227,226,233,225,224,232,235,231,230,223,222,220,144,88,87,50,49,48,128,45,77,39,36,30,26,103,74,23,101,53,47,44,42,41,237,106,236,238,125,124,46,113,112,38,89,56,32,108,37,43,51,111,115,31,29,208,209,133,25,221,219,52,213,199,218,228,126,122,120,127,118,109,27,33,831,819,771,785,840,795,779,782,796,798,774&fields=text_uthmani,text_uthmani_tajweed,verse_key,verse_number,juz_number,hizb_number,page_number&word_fields=text_uthmani,char_type_name&translation_fields=resource_name,language_name,text"
     },
     {
-      "item": 2,
-      "error": "HTTP 503: https://api.quran.com/api/v4/verses/by_chapter/2?language=en&words=true&per_page=300&translations=85,149,84,95,78,19,79,80,81,83,86,76,75,22,20,203,234,57,54,156,151,158,97,136,135,139,35,134,153,161,163,162,210,211,217,229,55,143,141,140,214,227,226,233,225,224,232,235,231,230,223,222,220,144,88,87,50,49,48,128,45,77,39,36,30,26,103,74,23,101,53,47,44,42,41,237,106,236,238,125,124,46,113,112,38,89,56,32,108,37,43,51,111,115,31,29,208,209,133,25,221,219,52,213,199,218,228,126,122,120,127,118,109,27,33,831,819,771,785,840,795,779,782,796,798,774&fields=text_uthmani,text_uthmani_tajweed,verse_key,verse_number,juz_number,hizb_number,page_number&word_fields=text_uthmani,char_type_name&translation_fields=resource_name,language_name,text"
+      "item": 3,
+      "error": "HTTP 503: https://api.quran.com/api/v4/verses/by_chapter/3?language=en&words=true&per_page=300&translations=85,149,84,95,78,19,79,80,81,83,86,76,75,22,20,203,234,57,54,156,151,158,97,136,135,139,35,134,153,161,163,162,210,211,217,229,55,143,141,140,214,227,226,233,225,224,232,235,231,230,223,222,220,144,88,87,50,49,48,128,45,77,39,36,30,26,103,74,23,101,53,47,44,42,41,237,106,236,238,125,124,46,113,112,38,89,56,32,108,37,43,51,111,115,31,29,208,209,133,25,221,219,52,213,199,218,228,126,122,120,127,118,109,27,33,831,819,771,785,840,795,779,782,796,798,774&fields=text_uthmani,text_uthmani_tajweed,verse_key,verse_number,juz_number,hizb_number,page_number&word_fields=text_uthmani,char_type_name&translation_fields=resource_name,language_name,text"
     },
     {
-      "item": 5,
-      "error": "HTTP 503: https://api.quran.com/api/v4/verses/by_chapter/5?language=en&words=true&per_page=300&translations=85,149,84,95,78,19,79,80,81,83,86,76,75,22,20,203,234,57,54,156,151,158,97,136,135,139,35,134,153,161,163,162,210,211,217,229,55,143,141,140,214,227,226,233,225,224,232,235,231,230,223,222,220,144,88,87,50,49,48,128,45,77,39,36,30,26,103,74,23,101,53,47,44,42,41,237,106,236,238,125,124,46,113,112,38,89,56,32,108,37,43,51,111,115,31,29,208,209,133,25,221,219,52,213,199,218,228,126,122,120,127,118,109,27,33,831,819,771,785,840,795,779,782,796,798,774&fields=text_uthmani,text_uthmani_tajweed,verse_key,verse_number,juz_number,hizb_number,page_number&word_fields=text_uthmani,char_type_name&translation_fields=resource_name,language_name,text"
+      "item": 6,
+      "error": "HTTP 503: https://api.quran.com/api/v4/verses/by_chapter/6?language=en&words=true&per_page=300&translations=85,149,84,95,78,19,79,80,81,83,86,76,75,22,20,203,234,57,54,156,151,158,97,136,135,139,35,134,153,161,163,162,210,211,217,229,55,143,141,140,214,227,226,233,225,224,232,235,231,230,223,222,220,144,88,87,50,49,48,128,45,77,39,36,30,26,103,74,23,101,53,47,44,42,41,237,106,236,238,125,124,46,113,112,38,89,56,32,108,37,43,51,111,115,31,29,208,209,133,25,221,219,52,213,199,218,228,126,122,120,127,118,109,27,33,831,819,771,785,840,795,779,782,796,798,774&fields=text_uthmani,text_uthmani_tajweed,verse_key,verse_number,juz_number,hizb_number,page_number&word_fields=text_uthmani,char_type_name&translation_fields=resource_name,language_name,text"
     },
     {
       "item": 7,
       "error": "HTTP 503: https://api.quran.com/api/v4/verses/by_chapter/7?language=en&words=true&per_page=300&translations=85,149,84,95,78,19,79,80,81,83,86,76,75,22,20,203,234,57,54,156,151,158,97,136,135,139,35,134,153,161,163,162,210,211,217,229,55,143,141,140,214,227,226,233,225,224,232,235,231,230,223,222,220,144,88,87,50,49,48,128,45,77,39,36,30,26,103,74,23,101,53,47,44,42,41,237,106,236,238,125,124,46,113,112,38,89,56,32,108,37,43,51,111,115,31,29,208,209,133,25,221,219,52,213,199,218,228,126,122,120,127,118,109,27,33,831,819,771,785,840,795,779,782,796,798,774&fields=text_uthmani,text_uthmani_tajweed,verse_key,verse_number,juz_number,hizb_number,page_number&word_fields=text_uthmani,char_type_name&translation_fields=resource_name,language_name,text"
     },
     {
-      "item": 6,
-      "error": "HTTP 503: https://api.quran.com/api/v4/verses/by_chapter/6?language=en&words=true&per_page=300&translations=85,149,84,95,78,19,79,80,81,83,86,76,75,22,20,203,234,57,54,156,151,158,97,136,135,139,35,134,153,161,163,162,210,211,217,229,55,143,141,140,214,227,226,233,225,224,232,235,231,230,223,222,220,144,88,87,50,49,48,128,45,77,39,36,30,26,103,74,23,101,53,47,44,42,41,237,106,236,238,125,124,46,113,112,38,89,56,32,108,37,43,51,111,115,31,29,208,209,133,25,221,219,52,213,199,218,228,126,122,120,127,118,109,27,33,831,819,771,785,840,795,779,782,796,798,774&fields=text_uthmani,text_uthmani_tajweed,verse_key,verse_number,juz_number,hizb_number,page_number&word_fields=text_uthmani,char_type_name&translation_fields=resource_name,language_name,text"
+      "item": 5,
+      "error": "HTTP 503: https://api.quran.com/api/v4/verses/by_chapter/5?language=en&words=true&per_page=300&translations=85,149,84,95,78,19,79,80,81,83,86,76,75,22,20,203,234,57,54,156,151,158,97,136,135,139,35,134,153,161,163,162,210,211,217,229,55,143,141,140,214,227,226,233,225,224,232,235,231,230,223,222,220,144,88,87,50,49,48,128,45,77,39,36,30,26,103,74,23,101,53,47,44,42,41,237,106,236,238,125,124,46,113,112,38,89,56,32,108,37,43,51,111,115,31,29,208,209,133,25,221,219,52,213,199,218,228,126,122,120,127,118,109,27,33,831,819,771,785,840,795,779,782,796,798,774&fields=text_uthmani,text_uthmani_tajweed,verse_key,verse_number,juz_number,hizb_number,page_number&word_fields=text_uthmani,char_type_name&translation_fields=resource_name,language_name,text"
     },
     {
       "item": 49,
@@ -639,14 +639,6 @@
       "error": "HTTP 503: https://api.quran.com/api/v4/verses/by_chapter/58?language=en&words=true&per_page=300&translations=85,149,84,95,78,19,79,80,81,83,86,76,75,22,20,203,234,57,54,156,151,158,97,136,135,139,35,134,153,161,163,162,210,211,217,229,55,143,141,140,214,227,226,233,225,224,232,235,231,230,223,222,220,144,88,87,50,49,48,128,45,77,39,36,30,26,103,74,23,101,53,47,44,42,41,237,106,236,238,125,124,46,113,112,38,89,56,32,108,37,43,51,111,115,31,29,208,209,133,25,221,219,52,213,199,218,228,126,122,120,127,118,109,27,33,831,819,771,785,840,795,779,782,796,798,774&fields=text_uthmani,text_uthmani_tajweed,verse_key,verse_number,juz_number,hizb_number,page_number&word_fields=text_uthmani,char_type_name&translation_fields=resource_name,language_name,text"
     },
     {
-      "item": 59,
-      "error": "HTTP 503: https://api.quran.com/api/v4/verses/by_chapter/59?language=en&words=true&per_page=300&translations=85,149,84,95,78,19,79,80,81,83,86,76,75,22,20,203,234,57,54,156,151,158,97,136,135,139,35,134,153,161,163,162,210,211,217,229,55,143,141,140,214,227,226,233,225,224,232,235,231,230,223,222,220,144,88,87,50,49,48,128,45,77,39,36,30,26,103,74,23,101,53,47,44,42,41,237,106,236,238,125,124,46,113,112,38,89,56,32,108,37,43,51,111,115,31,29,208,209,133,25,221,219,52,213,199,218,228,126,122,120,127,118,109,27,33,831,819,771,785,840,795,779,782,796,798,774&fields=text_uthmani,text_uthmani_tajweed,verse_key,verse_number,juz_number,hizb_number,page_number&word_fields=text_uthmani,char_type_name&translation_fields=resource_name,language_name,text"
-    },
-    {
-      "item": 10,
-      "error": "HTTP 503: https://api.quran.com/api/v4/verses/by_chapter/10?language=en&words=true&per_page=300&translations=85,149,84,95,78,19,79,80,81,83,86,76,75,22,20,203,234,57,54,156,151,158,97,136,135,139,35,134,153,161,163,162,210,211,217,229,55,143,141,140,214,227,226,233,225,224,232,235,231,230,223,222,220,144,88,87,50,49,48,128,45,77,39,36,30,26,103,74,23,101,53,47,44,42,41,237,106,236,238,125,124,46,113,112,38,89,56,32,108,37,43,51,111,115,31,29,208,209,133,25,221,219,52,213,199,218,228,126,122,120,127,118,109,27,33,831,819,771,785,840,795,779,782,796,798,774&fields=text_uthmani,text_uthmani_tajweed,verse_key,verse_number,juz_number,hizb_number,page_number&word_fields=text_uthmani,char_type_name&translation_fields=resource_name,language_name,text"
-    },
-    {
       "item": 9,
       "error": "HTTP 503: https://api.quran.com/api/v4/verses/by_chapter/9?language=en&words=true&per_page=300&translations=85,149,84,95,78,19,79,80,81,83,86,76,75,22,20,203,234,57,54,156,151,158,97,136,135,139,35,134,153,161,163,162,210,211,217,229,55,143,141,140,214,227,226,233,225,224,232,235,231,230,223,222,220,144,88,87,50,49,48,128,45,77,39,36,30,26,103,74,23,101,53,47,44,42,41,237,106,236,238,125,124,46,113,112,38,89,56,32,108,37,43,51,111,115,31,29,208,209,133,25,221,219,52,213,199,218,228,126,122,120,127,118,109,27,33,831,819,771,785,840,795,779,782,796,798,774&fields=text_uthmani,text_uthmani_tajweed,verse_key,verse_number,juz_number,hizb_number,page_number&word_fields=text_uthmani,char_type_name&translation_fields=resource_name,language_name,text"
     },
@@ -655,8 +647,8 @@
       "error": "HTTP 503: https://api.quran.com/api/v4/verses/by_chapter/60?language=en&words=true&per_page=300&translations=85,149,84,95,78,19,79,80,81,83,86,76,75,22,20,203,234,57,54,156,151,158,97,136,135,139,35,134,153,161,163,162,210,211,217,229,55,143,141,140,214,227,226,233,225,224,232,235,231,230,223,222,220,144,88,87,50,49,48,128,45,77,39,36,30,26,103,74,23,101,53,47,44,42,41,237,106,236,238,125,124,46,113,112,38,89,56,32,108,37,43,51,111,115,31,29,208,209,133,25,221,219,52,213,199,218,228,126,122,120,127,118,109,27,33,831,819,771,785,840,795,779,782,796,798,774&fields=text_uthmani,text_uthmani_tajweed,verse_key,verse_number,juz_number,hizb_number,page_number&word_fields=text_uthmani,char_type_name&translation_fields=resource_name,language_name,text"
     },
     {
-      "item": 64,
-      "error": "HTTP 503: https://api.quran.com/api/v4/verses/by_chapter/64?language=en&words=true&per_page=300&translations=85,149,84,95,78,19,79,80,81,83,86,76,75,22,20,203,234,57,54,156,151,158,97,136,135,139,35,134,153,161,163,162,210,211,217,229,55,143,141,140,214,227,226,233,225,224,232,235,231,230,223,222,220,144,88,87,50,49,48,128,45,77,39,36,30,26,103,74,23,101,53,47,44,42,41,237,106,236,238,125,124,46,113,112,38,89,56,32,108,37,43,51,111,115,31,29,208,209,133,25,221,219,52,213,199,218,228,126,122,120,127,118,109,27,33,831,819,771,785,840,795,779,782,796,798,774&fields=text_uthmani,text_uthmani_tajweed,verse_key,verse_number,juz_number,hizb_number,page_number&word_fields=text_uthmani,char_type_name&translation_fields=resource_name,language_name,text"
+      "item": 59,
+      "error": "HTTP 503: https://api.quran.com/api/v4/verses/by_chapter/59?language=en&words=true&per_page=300&translations=85,149,84,95,78,19,79,80,81,83,86,76,75,22,20,203,234,57,54,156,151,158,97,136,135,139,35,134,153,161,163,162,210,211,217,229,55,143,141,140,214,227,226,233,225,224,232,235,231,230,223,222,220,144,88,87,50,49,48,128,45,77,39,36,30,26,103,74,23,101,53,47,44,42,41,237,106,236,238,125,124,46,113,112,38,89,56,32,108,37,43,51,111,115,31,29,208,209,133,25,221,219,52,213,199,218,228,126,122,120,127,118,109,27,33,831,819,771,785,840,795,779,782,796,798,774&fields=text_uthmani,text_uthmani_tajweed,verse_key,verse_number,juz_number,hizb_number,page_number&word_fields=text_uthmani,char_type_name&translation_fields=resource_name,language_name,text"
     },
     {
       "item": 61,
@@ -667,12 +659,16 @@
       "error": "HTTP 503: https://api.quran.com/api/v4/verses/by_chapter/65?language=en&words=true&per_page=300&translations=85,149,84,95,78,19,79,80,81,83,86,76,75,22,20,203,234,57,54,156,151,158,97,136,135,139,35,134,153,161,163,162,210,211,217,229,55,143,141,140,214,227,226,233,225,224,232,235,231,230,223,222,220,144,88,87,50,49,48,128,45,77,39,36,30,26,103,74,23,101,53,47,44,42,41,237,106,236,238,125,124,46,113,112,38,89,56,32,108,37,43,51,111,115,31,29,208,209,133,25,221,219,52,213,199,218,228,126,122,120,127,118,109,27,33,831,819,771,785,840,795,779,782,796,798,774&fields=text_uthmani,text_uthmani_tajweed,verse_key,verse_number,juz_number,hizb_number,page_number&word_fields=text_uthmani,char_type_name&translation_fields=resource_name,language_name,text"
     },
     {
-      "item": 71,
-      "error": "HTTP 503: https://api.quran.com/api/v4/verses/by_chapter/71?language=en&words=true&per_page=300&translations=85,149,84,95,78,19,79,80,81,83,86,76,75,22,20,203,234,57,54,156,151,158,97,136,135,139,35,134,153,161,163,162,210,211,217,229,55,143,141,140,214,227,226,233,225,224,232,235,231,230,223,222,220,144,88,87,50,49,48,128,45,77,39,36,30,26,103,74,23,101,53,47,44,42,41,237,106,236,238,125,124,46,113,112,38,89,56,32,108,37,43,51,111,115,31,29,208,209,133,25,221,219,52,213,199,218,228,126,122,120,127,118,109,27,33,831,819,771,785,840,795,779,782,796,798,774&fields=text_uthmani,text_uthmani_tajweed,verse_key,verse_number,juz_number,hizb_number,page_number&word_fields=text_uthmani,char_type_name&translation_fields=resource_name,language_name,text"
+      "item": 64,
+      "error": "HTTP 503: https://api.quran.com/api/v4/verses/by_chapter/64?language=en&words=true&per_page=300&translations=85,149,84,95,78,19,79,80,81,83,86,76,75,22,20,203,234,57,54,156,151,158,97,136,135,139,35,134,153,161,163,162,210,211,217,229,55,143,141,140,214,227,226,233,225,224,232,235,231,230,223,222,220,144,88,87,50,49,48,128,45,77,39,36,30,26,103,74,23,101,53,47,44,42,41,237,106,236,238,125,124,46,113,112,38,89,56,32,108,37,43,51,111,115,31,29,208,209,133,25,221,219,52,213,199,218,228,126,122,120,127,118,109,27,33,831,819,771,785,840,795,779,782,796,798,774&fields=text_uthmani,text_uthmani_tajweed,verse_key,verse_number,juz_number,hizb_number,page_number&word_fields=text_uthmani,char_type_name&translation_fields=resource_name,language_name,text"
     },
     {
       "item": 66,
       "error": "HTTP 503: https://api.quran.com/api/v4/verses/by_chapter/66?language=en&words=true&per_page=300&translations=85,149,84,95,78,19,79,80,81,83,86,76,75,22,20,203,234,57,54,156,151,158,97,136,135,139,35,134,153,161,163,162,210,211,217,229,55,143,141,140,214,227,226,233,225,224,232,235,231,230,223,222,220,144,88,87,50,49,48,128,45,77,39,36,30,26,103,74,23,101,53,47,44,42,41,237,106,236,238,125,124,46,113,112,38,89,56,32,108,37,43,51,111,115,31,29,208,209,133,25,221,219,52,213,199,218,228,126,122,120,127,118,109,27,33,831,819,771,785,840,795,779,782,796,798,774&fields=text_uthmani,text_uthmani_tajweed,verse_key,verse_number,juz_number,hizb_number,page_number&word_fields=text_uthmani,char_type_name&translation_fields=resource_name,language_name,text"
+    },
+    {
+      "item": 71,
+      "error": "HTTP 503: https://api.quran.com/api/v4/verses/by_chapter/71?language=en&words=true&per_page=300&translations=85,149,84,95,78,19,79,80,81,83,86,76,75,22,20,203,234,57,54,156,151,158,97,136,135,139,35,134,153,161,163,162,210,211,217,229,55,143,141,140,214,227,226,233,225,224,232,235,231,230,223,222,220,144,88,87,50,49,48,128,45,77,39,36,30,26,103,74,23,101,53,47,44,42,41,237,106,236,238,125,124,46,113,112,38,89,56,32,108,37,43,51,111,115,31,29,208,209,133,25,221,219,52,213,199,218,228,126,122,120,127,118,109,27,33,831,819,771,785,840,795,779,782,796,798,774&fields=text_uthmani,text_uthmani_tajweed,verse_key,verse_number,juz_number,hizb_number,page_number&word_fields=text_uthmani,char_type_name&translation_fields=resource_name,language_name,text"
     },
     {
       "item": 72,
