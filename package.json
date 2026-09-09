@@ -1,0 +1,14 @@
+{
+  "name": "noor-content-mirror",
+  "private": true,
+  "type": "module",
+  "description": "Local mirror of every Quran/Hadith API noor-server-video depends on at runtime.",
+  "scripts": {
+    "text": "node scripts/01-alquran-cloud-text.mjs && node scripts/03-quran-foundation-text.mjs && node scripts/04-quran-foundation-tafsir-footnotes.mjs && node scripts/06-hadith-fawaz.mjs && node scripts/07-hadith-hadeethenc.mjs && node scripts/08-morphology.mjs && node scripts/09-tafsir-extra.mjs",
+    "audio": "node scripts/02-alquran-cloud-audio.mjs && node scripts/05-quran-foundation-audio.mjs",
+    "all": "npm run text && npm run audio"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

@@ -1,0 +1,22 @@
+# Audio is intentionally NOT tracked here — see README.md ("Audio" section).
+# It's still downloaded to disk locally for the app to use; it's just too
+# large for a normal git remote (individual files exceed GitHub's 100MB
+# hard limit, and full scope is 40GB+, far past free LFS quotas).
+data/quran/alquran-cloud/audio/
+data/quran/foundation/audio/
+
+# Partial/in-progress downloads (saveBinary writes here before renaming).
+*.part
+
+# Transient run logs (timestamped console output) — the per-script summary
+# JSON logs (e.g. logs/01-alquran-cloud-text.json) ARE tracked; those are
+# the useful "what happened" record. The raw _run-*.log / _retry-*.log
+# redirects are just console noise from this session's background jobs.
+logs/_run-*.log
+logs/_retry-*.log
+logs/*.progress.json
+
+node_modules/
+
+# Claude Code session-local state, not part of the mirror.
+.claude/
