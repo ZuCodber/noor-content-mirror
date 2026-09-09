@@ -15,6 +15,7 @@ data/quran/foundation/audio/
 logs/_run-*.log
 logs/_retry-*.log
 logs/_git-add*.log
+logs/_gitadd*.log
 logs/_commit*.log
 logs/*.progress.json
 

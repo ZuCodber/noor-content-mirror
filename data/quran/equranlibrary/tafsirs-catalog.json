@@ -1,0 +1,52 @@
+[
+  {
+    "slug": "taiseerulquran",
+    "name": "Taiseer-ul-Quran",
+    "author": "Abdur Rahman Kilani"
+  },
+  {
+    "slug": "tafheemulquran",
+    "name": "Tafheem-ul-Quran (Urdu)",
+    "author": "Syed Abul Ala Maududi"
+  },
+  {
+    "slug": "usmani",
+    "name": "Tafseer-e-Usmani",
+    "author": "Shabbir Ahmad Usmani"
+  },
+  {
+    "slug": "tafheemulquranen",
+    "name": "Tafheem-ul-Quran (English)",
+    "author": "Syed Abul Ala Maududi"
+  },
+  {
+    "slug": "tadabburequran",
+    "name": "Tadabbur-e-Quran",
+    "author": "Amin Ahsan Islahi"
+  },
+  {
+    "slug": "duremansoor",
+    "name": "Durr-e-Mansoor",
+    "author": "Imam Jalal ad-Din as-Suyuti"
+  },
+  {
+    "slug": "mazhari",
+    "name": "Tafsir Mazhari",
+    "author": "Qazi Sanaullah Panipati"
+  },
+  {
+    "slug": "bayanulquranthanvi",
+    "name": "Bayan-ul-Quran (Thanvi)",
+    "author": "Ashraf Ali Thanvi"
+  },
+  {
+    "slug": "haqqani",
+    "name": "Tafsir Haqqani",
+    "author": "Abdul Haq Haqqani"
+  },
+  {
+    "slug": "majidi",
+    "name": "Tafsir Majidi",
+    "author": "Abdul Majid Daryabadi"
+  }
+]
