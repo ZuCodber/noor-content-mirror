@@ -1,0 +1,27 @@
+{
+  "startedAt": "2026-09-09T16:32:50.607Z",
+  "finishedAt": "2026-09-09T16:32:56.086Z",
+  "events": [
+    {
+      "level": "info",
+      "msg": "tafheemulquran surah 27 — 2 wrong entries (ayahs 52,58)",
+      "t": 1788971570777
+    },
+    {
+      "level": "info",
+      "msg": "taiseerulquran surah 7 — 2 wrong entries (ayahs 191,192)",
+      "t": 1788971574128
+    },
+    {
+      "level": "info",
+      "msg": "DONE. files=350 entries=19875 wrongFound=4 fixed=4 stillWrong=0",
+      "t": 1788971576086
+    }
+  ],
+  "filesScanned": 350,
+  "entriesScanned": 19875,
+  "wrongFound": 4,
+  "fixed": 4,
+  "stillWrong": 0,
+  "stillWrongList": []
+}

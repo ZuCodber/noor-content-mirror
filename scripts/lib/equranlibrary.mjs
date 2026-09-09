@@ -52,13 +52,21 @@ export function parseTafsirPage(html) {
   const arabicText = arabicMatch ? stripTags(arabicMatch[1]) : null;
 
   // Plain translation paired with this ayah (short, "preformatted center-justified").
-  const shortTransMatches = [...html.matchAll(/<div class="translation center-justified"><span class="preformatted" dir="rtl">([\s\S]*?)<\/span>/g)];
+  // English-language tafsirs (e.g. Tafheem-ul-Quran (English)) use
+  // class="translation-english ..." + dir="ltr" instead of Urdu's
+  // class="translation ..." + dir="rtl" — same distinction found and fixed
+  // in parseTranslationPage, but this function needed its own fix (found
+  // live 2026-09-09: Tafheem-ul-Quran English had translation+commentary
+  // BOTH null for every ayah of surah 102 — arabicText alone isn't enough
+  // to catch this, since that's always present).
+  const shortTransMatches = [...html.matchAll(/<div class="translation(?:-english)? center-justified"><span class="preformatted" dir="(?:rtl|ltr)">([\s\S]*?)<\/span>/g)];
   const shortTranslation = shortTransMatches.length ? stripTags(shortTransMatches[shortTransMatches.length - 1][1]) : null;
 
   // The actual tafsir commentary body: inside its own <div class="card">,
-  // a <div class="translation "> (note: NO "center-justified") containing
-  // a preformatted span. This is the last such block on the page.
-  const bodyMatches = [...html.matchAll(/<div class="translation "><span class="preformatted" dir="rtl">([\s\S]*?)<\/span>\s*<\/div>/g)];
+  // a <div class="translation "> or <div class="translation-english "> (NO
+  // "center-justified") containing a preformatted span. Last such block on
+  // the page.
+  const bodyMatches = [...html.matchAll(/<div class="translation(?:-english)? "><span class="preformatted" dir="(?:rtl|ltr)">([\s\S]*?)<\/span>\s*<\/div>/g)];
   const commentary = bodyMatches.length ? stripTags(bodyMatches[bodyMatches.length - 1][1]) : null;
 
   if (!arabicText && !commentary) return null; // genuinely empty/missing page
@@ -100,6 +108,41 @@ export function parseTranslationPage(html, surah) {
 export async function fetchTafsirAyah(slug, surah, ayah) {
   const html = await getHtml(`/tafseer/${slug}/${surah}/${ayah}`);
   return parseTafsirPage(html);
+}
+
+// Content-integrity check found necessary live 2026-09-09: this site
+// (JSF/PrimeFaces, stateful, one shared session cookie across all our
+// requests) intermittently returns a DIFFERENT ayah's content for the URL
+// actually requested — confirmed by inspecting already-stored files (e.g.
+// taiseerulquran surah 1, ayahs 1-4 all held ayah 2's title/text verbatim).
+// Didn't reproduce reliably in isolated concurrency tests, so lowering
+// concurrency alone isn't something to trust blindly — the page's own
+// title line states which ayah it actually rendered, so every fetch
+// verifies that against what was asked for and retries as a failure on
+// any mismatch, catching it regardless of root cause. Used by both the
+// downloader (script 11) and the repair tool (script 13) so they can't
+// drift out of sync with each other.
+export function titleAyahNumber(title) {
+  const m = title?.match(/:\s*(\d+)\s*$/);
+  return m ? Number(m[1]) : null;
+}
+
+export async function fetchTafsirAyahVerified(slug, surah, ayahNo, attempts = 3) {
+  let lastErr;
+  for (let i = 0; i < attempts; i++) {
+    try {
+      const entry = await fetchTafsirAyah(slug, surah, ayahNo);
+      const gotAyah = titleAyahNumber(entry?.title);
+      if (entry && gotAyah !== null && gotAyah !== ayahNo) {
+        throw new Error(`content mismatch: requested ayah ${ayahNo}, page title says ayah ${gotAyah}`);
+      }
+      return entry;
+    } catch (e) {
+      lastErr = e;
+      if (i < attempts - 1) await new Promise(r => setTimeout(r, 2000)); // flat 2s gap per user request
+    }
+  }
+  throw lastErr;
 }
 
 export async function fetchTranslationSurah(slug, surah) {

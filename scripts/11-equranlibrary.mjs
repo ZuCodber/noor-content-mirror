@@ -17,7 +17,7 @@ import path from 'node:path';
 import fs from 'node:fs';
 import { fileURLToPath } from 'node:url';
 import { pool, Logger, ensureDirSync } from './lib/http.mjs';
-import { fetchTafsirAyah, fetchTranslationSurah } from './lib/equranlibrary.mjs';
+import { fetchTafsirAyahVerified, fetchTranslationSurah } from './lib/equranlibrary.mjs';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, '..');
@@ -69,25 +69,56 @@ async function main() {
   }
 
   // ─── Tafsirs: per-ayah only, the expensive part ───────────────────────
+  // Per user request 2026-09-09: (1) a failed ayah gets 3 immediate
+  // attempts right then, not a single try; (2) whatever surahs still
+  // failed after a full pass get retried again at the end of that SAME
+  // tafsir — self-healing within one script run — before moving to the
+  // next tafsir, instead of requiring a separate manual re-run.
+  // Attempts one surah; returns true if it completed and was written.
+  // fetchTafsirAyahVerified (lib/equranlibrary.mjs) does the 3-attempt/2s-gap
+  // retry AND validates each page's own title against the ayah we asked
+  // for, retrying as a failure on any mismatch — see that function's
+  // comment for why (a real, confirmed data-corruption bug, not a
+  // hypothetical one).
+  async function processSurah(slug, surah) {
+    const dest = path.join(DATA, 'tafsir', slug, `${surah}.json`);
+    if (fs.existsSync(dest)) return true;
+    const total = versesCount.get(surah);
+    const ayahNums = Array.from({ length: total }, (_, i) => i + 1);
+    const results = new Array(total).fill(null);
+    const { ok, failed, failures } = await pool(ayahNums, 2, async (ayahNo) => {
+      const entry = await fetchTafsirAyahVerified(slug, surah, ayahNo);
+      results[ayahNo - 1] = entry ? { ayah: ayahNo, ...entry } : { ayah: ayahNo, missing: true };
+    });
+    tafsirOk += ok; tafsirFailed += failed;
+    if (failed) {
+      allTafsirFailures.push({ slug, surah, failed, sample: failures.slice(0, 3) });
+      return false;
+    }
+    ensureDirSync(path.dirname(dest));
+    fs.writeFileSync(dest, JSON.stringify({ surah, tafsir: slug, ayahs: results }));
+    return true;
+  }
+
   let tafsirOk = 0, tafsirFailed = 0;
   const allTafsirFailures = [];
   for (const { slug, name } of TAFSIRS) {
-    for (const chapter of chapters) {
-      const surah = chapter.id;
-      const dest = path.join(DATA, 'tafsir', slug, `${surah}.json`);
-      if (fs.existsSync(dest)) { continue; }
-      const total = versesCount.get(surah);
-      const ayahNums = Array.from({ length: total }, (_, i) => i + 1);
-      const results = new Array(total).fill(null);
-      const { ok, failed, failures } = await pool(ayahNums, 4, async (ayahNo) => {
-        const entry = await fetchTafsirAyah(slug, surah, ayahNo);
-        results[ayahNo - 1] = entry ? { ayah: ayahNo, ...entry } : { ayah: ayahNo, missing: true };
-      });
-      ensureDirSync(path.dirname(dest));
-      fs.writeFileSync(dest, JSON.stringify({ surah, tafsir: slug, ayahs: results }));
-      tafsirOk += ok; tafsirFailed += failed;
-      if (failed) allTafsirFailures.push({ slug, surah, failed, sample: failures.slice(0, 3) });
+    let pending = chapters.map(c => c.id);
+    // Initial pass over every surah, then up to 3 cleanup passes over
+    // whatever's still missing — bounded so a genuinely broken slug can't
+    // loop forever, but a normal transient-failure tail (a handful of
+    // surahs) gets healed automatically before moving on.
+    for (let round = 0; round <= 3 && pending.length; round++) {
+      if (round > 0) log.info(`${slug} — cleanup round ${round}, ${pending.length} surah(s) left: ${pending.join(',')}`);
+      const stillFailed = [];
+      for (const surah of pending) {
+        const ok = await processSurah(slug, surah);
+        if (!ok) stillFailed.push(surah);
+        else if (round > 0) log.info(`${slug} surah ${surah} — recovered on cleanup round ${round}`);
+      }
+      pending = stillFailed;
     }
+    if (pending.length) log.info(`${slug} — gave up on ${pending.length} surah(s) after cleanup rounds: ${pending.join(',')}`);
     log.info(`tafsir ${slug} (${name}) — all ${chapters.length} surahs done. running totals: ok=${tafsirOk} failed=${tafsirFailed}`);
   }
 

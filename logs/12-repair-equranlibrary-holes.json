@@ -1,0 +1,25 @@
+{
+  "startedAt": "2026-09-09T12:56:57.034Z",
+  "finishedAt": "2026-09-09T12:57:14.208Z",
+  "events": [
+    {
+      "level": "info",
+      "msg": "tafheemulquran surah 7 — 7 holes: ayahs 111,113,114,115,116,117,118",
+      "t": 1788958617073
+    },
+    {
+      "level": "info",
+      "msg": "taiseerulquran surah 28 — 2 holes: ayahs 33,34",
+      "t": 1788958630684
+    },
+    {
+      "level": "info",
+      "msg": "DONE. holes found=9 fixed=9 still broken=0",
+      "t": 1788958634208
+    }
+  ],
+  "totalHoles": 9,
+  "totalFixed": 9,
+  "totalStillBroken": 0,
+  "stillBroken": []
+}
