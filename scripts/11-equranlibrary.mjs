@@ -41,6 +41,22 @@ const TAFSIRS = [
   { slug: 'bayanulquranthanvi', name: 'Bayan-ul-Quran (Thanvi)', author: 'Ashraf Ali Thanvi' },
   { slug: 'haqqani',           name: 'Tafsir Haqqani',           author: 'Abdul Haq Haqqani' },
   { slug: 'majidi',            name: 'Tafsir Majidi',            author: 'Abdul Majid Daryabadi' },
+
+  // Batch 2 — per user request 2026-09-10 ("continue next batch of 10 once
+  // this is done"), appended so the run continues automatically rather than
+  // needing a manual restart. Picked from the 25 still-remaining slugs (46
+  // total minus the 11 already covered elsewhere in this mirror minus
+  // batch 1 above), verified against the live site's own listing.
+  { slug: 'aasantarjumaquran', name: 'Aasan Quran',              author: 'Mufti Muhammad Taqi Usmani' },
+  { slug: 'mazharulquran',     name: 'Mazhar-ul-Quran',          author: null },
+  { slug: 'jawahirulquran',    name: 'Jawahir-ul-Quran',         author: 'Ghulam Ullah Khan' },
+  { slug: 'fahmulquran',       name: 'Fahm-ul-Quran',            author: 'Mian Muhammad Jameel' },
+  { slug: 'mutaliyaquran',     name: 'Mutalia-e-Quran',          author: 'Professor Hafiz Ahmad Yar' },
+  { slug: 'maarifulqurankandhalwi', name: "Ma'arif-ul-Quran (Kandhalwi)", author: 'Muhammad Idrees Kandhlawi' },
+  { slug: 'mufradatulquran',   name: 'Mufradat-ul-Quran',        author: null }, // lexicon/word-meanings, not prose commentary
+  { slug: 'ruhulquran',        name: 'Ruh-ul-Quran',             author: 'Dr. Muhammad Aslam Siddiqui' },
+  { slug: 'sirajulbayan',      name: 'Siraj-ul-Bayan',           author: null },
+  { slug: 'tibyanulquran',     name: 'Tibyan-ul-Quran',          author: 'Ghulam Rasool Saeedi' },
 ];
 
 async function main() {
