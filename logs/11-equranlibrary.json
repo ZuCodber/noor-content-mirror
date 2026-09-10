@@ -1,11 +1,1289 @@
 {
-  "startedAt": "2026-09-09T11:59:10.618Z",
-  "finishedAt": "2026-09-09T11:59:10.624Z",
+  "startedAt": "2026-09-10T00:56:09.431Z",
+  "finishedAt": "2026-09-10T23:43:01.251Z",
   "events": [
     {
-      "level": "error",
-      "msg": "Error: ENOENT: no such file or directory, open 'C:\\Users\\Public\\Zuber\\noor-content-mirror\\data\\quran\\equranlibrary\\tafsirs-catalog.json'\n    at Object.writeFileSync (node:fs:2380:20)\n    at main (file:///C:/Users/Public/Zuber/noor-content-mirror/scripts/11-equranlibrary.mjs:50:6)\n    at file:///C:/Users/Public/Zuber/noor-content-mirror/scripts/11-equranlibrary.mjs:98:1\n    at ModuleJob.run (node:internal/modules/esm/module_job:325:25)\n    at async ModuleLoader.import (node:internal/modules/esm/loader:606:24)\n    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:117:5)",
-      "t": 1788955150624
+      "level": "info",
+      "msg": "translation jalandhary — ok=114 failed=0",
+      "t": 1789001769465
+    },
+    {
+      "level": "info",
+      "msg": "translation junagarhi — ok=114 failed=0",
+      "t": 1789001769475
+    },
+    {
+      "level": "info",
+      "msg": "translation maududi — ok=114 failed=0",
+      "t": 1789001769487
+    },
+    {
+      "level": "info",
+      "msg": "translation maududi_en — ok=114 failed=0",
+      "t": 1789001769496
+    },
+    {
+      "level": "info",
+      "msg": "translation sahih_en — ok=114 failed=0",
+      "t": 1789001769508
+    },
+    {
+      "level": "info",
+      "msg": "translation taqi — ok=114 failed=0",
+      "t": 1789001769518
+    },
+    {
+      "level": "info",
+      "msg": "tafsir taiseerulquran (Taiseer-ul-Quran) — all 114 surahs done. running totals: ok=0 failed=0",
+      "t": 1789001769529
+    },
+    {
+      "level": "info",
+      "msg": "tafsir tafheemulquran (Tafheem-ul-Quran (Urdu)) — all 114 surahs done. running totals: ok=0 failed=0",
+      "t": 1789001769540
+    },
+    {
+      "level": "info",
+      "msg": "tafsir usmani (Tafseer-e-Usmani) — all 114 surahs done. running totals: ok=0 failed=0",
+      "t": 1789001769552
+    },
+    {
+      "level": "info",
+      "msg": "tafsir tafheemulquranen (Tafheem-ul-Quran (English)) — all 114 surahs done. running totals: ok=0 failed=0",
+      "t": 1789001769561
+    },
+    {
+      "level": "info",
+      "msg": "tafsir tadabburequran (Tadabbur-e-Quran) — all 114 surahs done. running totals: ok=0 failed=0",
+      "t": 1789001769573
+    },
+    {
+      "level": "info",
+      "msg": "tafsir duremansoor (Durr-e-Mansoor) — all 114 surahs done. running totals: ok=0 failed=0",
+      "t": 1789001769584
+    },
+    {
+      "level": "info",
+      "msg": "tafsir mazhari (Tafsir Mazhari) — all 114 surahs done. running totals: ok=0 failed=0",
+      "t": 1789001769593
+    },
+    {
+      "level": "info",
+      "msg": "tafsir bayanulquranthanvi (Bayan-ul-Quran (Thanvi)) — all 114 surahs done. running totals: ok=0 failed=0",
+      "t": 1789001769607
+    },
+    {
+      "level": "info",
+      "msg": "haqqani — cleanup round 1, 2 surah(s) left: 2,79",
+      "t": 1789003205997
+    },
+    {
+      "level": "info",
+      "msg": "haqqani surah 2 — recovered on cleanup round 1",
+      "t": 1789003314677
+    },
+    {
+      "level": "info",
+      "msg": "haqqani surah 79 — recovered on cleanup round 1",
+      "t": 1789003331574
+    },
+    {
+      "level": "info",
+      "msg": "tafsir haqqani (Tafsir Haqqani) — all 114 surahs done. running totals: ok=2025 failed=6",
+      "t": 1789003331574
+    },
+    {
+      "level": "info",
+      "msg": "majidi — cleanup round 1, 5 surah(s) left: 11,25,26,28,48",
+      "t": 1789032778176
+    },
+    {
+      "level": "info",
+      "msg": "majidi surah 11 — recovered on cleanup round 1",
+      "t": 1789032815790
+    },
+    {
+      "level": "info",
+      "msg": "majidi surah 25 — recovered on cleanup round 1",
+      "t": 1789032838966
+    },
+    {
+      "level": "info",
+      "msg": "majidi surah 26 — recovered on cleanup round 1",
+      "t": 1789032911027
+    },
+    {
+      "level": "info",
+      "msg": "majidi surah 28 — recovered on cleanup round 1",
+      "t": 1789032937931
+    },
+    {
+      "level": "info",
+      "msg": "majidi surah 48 — recovered on cleanup round 1",
+      "t": 1789032946670
+    },
+    {
+      "level": "info",
+      "msg": "tafsir majidi (Tafsir Majidi) — all 114 surahs done. running totals: ok=8779 failed=32",
+      "t": 1789032946670
+    },
+    {
+      "level": "info",
+      "msg": "aasantarjumaquran — cleanup round 1, 4 surah(s) left: 5,18,37,60",
+      "t": 1789036971210
+    },
+    {
+      "level": "info",
+      "msg": "aasantarjumaquran surah 5 — recovered on cleanup round 1",
+      "t": 1789037013424
+    },
+    {
+      "level": "info",
+      "msg": "aasantarjumaquran surah 18 — recovered on cleanup round 1",
+      "t": 1789037048402
+    },
+    {
+      "level": "info",
+      "msg": "aasantarjumaquran surah 37 — recovered on cleanup round 1",
+      "t": 1789037319563
+    },
+    {
+      "level": "info",
+      "msg": "aasantarjumaquran surah 60 — recovered on cleanup round 1",
+      "t": 1789037464910
+    },
+    {
+      "level": "info",
+      "msg": "tafsir aasantarjumaquran (Aasan Quran) — all 114 surahs done. running totals: ok=15429 failed=43",
+      "t": 1789037464910
+    },
+    {
+      "level": "info",
+      "msg": "mazharulquran — cleanup round 1, 2 surah(s) left: 26,27",
+      "t": 1789040318430
+    },
+    {
+      "level": "info",
+      "msg": "mazharulquran surah 26 — recovered on cleanup round 1",
+      "t": 1789040385044
+    },
+    {
+      "level": "info",
+      "msg": "mazharulquran surah 27 — recovered on cleanup round 1",
+      "t": 1789040412782
+    },
+    {
+      "level": "info",
+      "msg": "tafsir mazharulquran (Mazhar-ul-Quran) — all 114 surahs done. running totals: ok=21981 failed=47",
+      "t": 1789040412782
+    },
+    {
+      "level": "info",
+      "msg": "jawahirulquran — cleanup round 1, 4 surah(s) left: 14,28,58,91",
+      "t": 1789044461030
+    },
+    {
+      "level": "info",
+      "msg": "jawahirulquran surah 14 — recovered on cleanup round 1",
+      "t": 1789044484128
+    },
+    {
+      "level": "info",
+      "msg": "jawahirulquran surah 28 — recovered on cleanup round 1",
+      "t": 1789044517692
+    },
+    {
+      "level": "info",
+      "msg": "jawahirulquran surah 58 — recovered on cleanup round 1",
+      "t": 1789044526094
+    },
+    {
+      "level": "info",
+      "msg": "jawahirulquran surah 91 — recovered on cleanup round 1",
+      "t": 1789044531364
+    },
+    {
+      "level": "info",
+      "msg": "tafsir jawahirulquran (Jawahir-ul-Quran) — all 114 surahs done. running totals: ok=28384 failed=57",
+      "t": 1789044531364
+    },
+    {
+      "level": "info",
+      "msg": "fahmulquran — cleanup round 1, 4 surah(s) left: 6,20,33,91",
+      "t": 1789048956370
+    },
+    {
+      "level": "info",
+      "msg": "fahmulquran surah 6 — recovered on cleanup round 1",
+      "t": 1789049032480
+    },
+    {
+      "level": "info",
+      "msg": "fahmulquran surah 20 — recovered on cleanup round 1",
+      "t": 1789049085012
+    },
+    {
+      "level": "info",
+      "msg": "fahmulquran surah 33 — recovered on cleanup round 1",
+      "t": 1789049116651
+    },
+    {
+      "level": "info",
+      "msg": "fahmulquran surah 91 — recovered on cleanup round 1",
+      "t": 1789049123498
+    },
+    {
+      "level": "info",
+      "msg": "tafsir fahmulquran (Fahm-ul-Quran) — all 114 surahs done. running totals: ok=34999 failed=66",
+      "t": 1789049123498
+    },
+    {
+      "level": "info",
+      "msg": "mutaliyaquran — cleanup round 1, 4 surah(s) left: 5,16,30,53",
+      "t": 1789052985904
+    },
+    {
+      "level": "info",
+      "msg": "mutaliyaquran surah 5 — recovered on cleanup round 1",
+      "t": 1789053033265
+    },
+    {
+      "level": "info",
+      "msg": "mutaliyaquran surah 30 — recovered on cleanup round 1",
+      "t": 1789053415984
+    },
+    {
+      "level": "info",
+      "msg": "mutaliyaquran surah 53 — recovered on cleanup round 1",
+      "t": 1789053443055
+    },
+    {
+      "level": "info",
+      "msg": "mutaliyaquran — cleanup round 2, 1 surah(s) left: 16",
+      "t": 1789053443055
+    },
+    {
+      "level": "info",
+      "msg": "mutaliyaquran surah 16 — recovered on cleanup round 2",
+      "t": 1789053494034
+    },
+    {
+      "level": "info",
+      "msg": "tafsir mutaliyaquran (Mutalia-e-Quran) — all 114 surahs done. running totals: ok=41723 failed=76",
+      "t": 1789053494034
+    },
+    {
+      "level": "info",
+      "msg": "maarifulqurankandhalwi — cleanup round 1, 4 surah(s) left: 6,18,36,64",
+      "t": 1789057641836
+    },
+    {
+      "level": "info",
+      "msg": "maarifulqurankandhalwi surah 18 — recovered on cleanup round 1",
+      "t": 1789058280521
+    },
+    {
+      "level": "info",
+      "msg": "maarifulqurankandhalwi surah 36 — recovered on cleanup round 1",
+      "t": 1789058321180
+    },
+    {
+      "level": "info",
+      "msg": "maarifulqurankandhalwi surah 64 — recovered on cleanup round 1",
+      "t": 1789058330763
+    },
+    {
+      "level": "info",
+      "msg": "maarifulqurankandhalwi — cleanup round 2, 1 surah(s) left: 6",
+      "t": 1789058330764
+    },
+    {
+      "level": "info",
+      "msg": "maarifulqurankandhalwi surah 6 — recovered on cleanup round 2",
+      "t": 1789058394657
+    },
+    {
+      "level": "info",
+      "msg": "tafsir maarifulqurankandhalwi (Ma'arif-ul-Quran (Kandhalwi)) — all 114 surahs done. running totals: ok=48486 failed=90",
+      "t": 1789058394657
+    },
+    {
+      "level": "info",
+      "msg": "mufradatulquran — cleanup round 1, 12 surah(s) left: 3,9,16,23,34,38,39,40,41,77,80,88",
+      "t": 1789068576697
+    },
+    {
+      "level": "info",
+      "msg": "mufradatulquran surah 3 — recovered on cleanup round 1",
+      "t": 1789068685633
+    },
+    {
+      "level": "info",
+      "msg": "mufradatulquran surah 9 — recovered on cleanup round 1",
+      "t": 1789068753646
+    },
+    {
+      "level": "info",
+      "msg": "mufradatulquran surah 16 — recovered on cleanup round 1",
+      "t": 1789069025408
+    },
+    {
+      "level": "info",
+      "msg": "mufradatulquran surah 23 — recovered on cleanup round 1",
+      "t": 1789069103399
+    },
+    {
+      "level": "info",
+      "msg": "mufradatulquran surah 34 — recovered on cleanup round 1",
+      "t": 1789069128510
+    },
+    {
+      "level": "info",
+      "msg": "mufradatulquran surah 38 — recovered on cleanup round 1",
+      "t": 1789069169063
+    },
+    {
+      "level": "info",
+      "msg": "mufradatulquran surah 41 — recovered on cleanup round 1",
+      "t": 1789070338792
+    },
+    {
+      "level": "info",
+      "msg": "mufradatulquran surah 77 — recovered on cleanup round 1",
+      "t": 1789070360175
+    },
+    {
+      "level": "info",
+      "msg": "mufradatulquran surah 80 — recovered on cleanup round 1",
+      "t": 1789070382098
+    },
+    {
+      "level": "info",
+      "msg": "mufradatulquran surah 88 — recovered on cleanup round 1",
+      "t": 1789070397894
+    },
+    {
+      "level": "info",
+      "msg": "mufradatulquran — cleanup round 2, 2 surah(s) left: 39,40",
+      "t": 1789070397895
+    },
+    {
+      "level": "info",
+      "msg": "mufradatulquran surah 39 — recovered on cleanup round 2",
+      "t": 1789070437893
+    },
+    {
+      "level": "info",
+      "msg": "mufradatulquran surah 40 — recovered on cleanup round 2",
+      "t": 1789070480677
+    },
+    {
+      "level": "info",
+      "msg": "tafsir mufradatulquran (Mufradat-ul-Quran) — all 114 surahs done. running totals: ok=55831 failed=190",
+      "t": 1789070480678
+    },
+    {
+      "level": "info",
+      "msg": "ruhulquran — cleanup round 1, 3 surah(s) left: 7,28,70",
+      "t": 1789074987142
+    },
+    {
+      "level": "info",
+      "msg": "ruhulquran surah 7 — recovered on cleanup round 1",
+      "t": 1789075062380
+    },
+    {
+      "level": "info",
+      "msg": "ruhulquran surah 28 — recovered on cleanup round 1",
+      "t": 1789075090937
+    },
+    {
+      "level": "info",
+      "msg": "ruhulquran surah 70 — recovered on cleanup round 1",
+      "t": 1789075106190
+    },
+    {
+      "level": "info",
+      "msg": "tafsir ruhulquran (Ruh-ul-Quran) — all 114 surahs done. running totals: ok=62399 failed=196",
+      "t": 1789075106190
+    },
+    {
+      "level": "info",
+      "msg": "sirajulbayan — cleanup round 1, 4 surah(s) left: 2,9,36,68",
+      "t": 1789079210410
+    },
+    {
+      "level": "info",
+      "msg": "sirajulbayan surah 2 — recovered on cleanup round 1",
+      "t": 1789079306026
+    },
+    {
+      "level": "info",
+      "msg": "sirajulbayan surah 9 — recovered on cleanup round 1",
+      "t": 1789079452863
+    },
+    {
+      "level": "info",
+      "msg": "sirajulbayan surah 68 — recovered on cleanup round 1",
+      "t": 1789079842490
+    },
+    {
+      "level": "info",
+      "msg": "sirajulbayan — cleanup round 2, 1 surah(s) left: 36",
+      "t": 1789079842490
+    },
+    {
+      "level": "info",
+      "msg": "sirajulbayan surah 36 — recovered on cleanup round 2",
+      "t": 1789079872458
+    },
+    {
+      "level": "info",
+      "msg": "tafsir sirajulbayan (Siraj-ul-Bayan) — all 114 surahs done. running totals: ok=69256 failed=208",
+      "t": 1789079872458
+    },
+    {
+      "level": "info",
+      "msg": "tibyanulquran — cleanup round 1, 4 surah(s) left: 8,21,37,74",
+      "t": 1789083621511
+    },
+    {
+      "level": "info",
+      "msg": "tibyanulquran surah 8 — recovered on cleanup round 1",
+      "t": 1789083646474
+    },
+    {
+      "level": "info",
+      "msg": "tibyanulquran surah 21 — recovered on cleanup round 1",
+      "t": 1789083682115
+    },
+    {
+      "level": "info",
+      "msg": "tibyanulquran surah 37 — recovered on cleanup round 1",
+      "t": 1789083763442
+    },
+    {
+      "level": "info",
+      "msg": "tibyanulquran surah 74 — recovered on cleanup round 1",
+      "t": 1789083781250
+    },
+    {
+      "level": "info",
+      "msg": "tafsir tibyanulquran (Tibyan-ul-Quran) — all 114 surahs done. running totals: ok=75907 failed=218",
+      "t": 1789083781250
+    },
+    {
+      "level": "info",
+      "msg": "ALL DONE. translations ok=684 failed=0; tafsirs ok=75907 failed=218",
+      "t": 1789083781250
+    }
+  ],
+  "transOk": 684,
+  "transFailed": 0,
+  "tafsirOk": 75907,
+  "tafsirFailed": 218,
+  "allTafsirFailures": [
+    {
+      "slug": "haqqani",
+      "surah": 2,
+      "failed": 2,
+      "sample": [
+        {
+          "item": 14,
+          "error": "HTTP 503: https://equranlibrary.com/tafseer/haqqani/2/14"
+        },
+        {
+          "item": 16,
+          "error": "HTTP 503: https://equranlibrary.com/tafseer/haqqani/2/16"
+        }
+      ]
+    },
+    {
+      "slug": "haqqani",
+      "surah": 79,
+      "failed": 4,
+      "sample": [
+        {
+          "item": 2,
+          "error": "fetch failed"
+        },
+        {
+          "item": 1,
+          "error": "fetch failed"
+        },
+        {
+          "item": 4,
+          "error": "fetch failed"
+        }
+      ]
+    },
+    {
+      "slug": "majidi",
+      "surah": 11,
+      "failed": 4,
+      "sample": [
+        {
+          "item": 100,
+          "error": "fetch failed"
+        },
+        {
+          "item": 102,
+          "error": "fetch failed"
+        },
+        {
+          "item": 103,
+          "error": "fetch failed"
+        }
+      ]
+    },
+    {
+      "slug": "majidi",
+      "surah": 25,
+      "failed": 2,
+      "sample": [
+        {
+          "item": 73,
+          "error": "fetch failed"
+        },
+        {
+          "item": 74,
+          "error": "fetch failed"
+        }
+      ]
+    },
+    {
+      "slug": "majidi",
+      "surah": 26,
+      "failed": 14,
+      "sample": [
+        {
+          "item": 181,
+          "error": "fetch failed"
+        },
+        {
+          "item": 182,
+          "error": "fetch failed"
+        },
+        {
+          "item": 184,
+          "error": "fetch failed"
+        }
+      ]
+    },
+    {
+      "slug": "majidi",
+      "surah": 28,
+      "failed": 2,
+      "sample": [
+        {
+          "item": 18,
+          "error": "fetch failed"
+        },
+        {
+          "item": 17,
+          "error": "fetch failed"
+        }
+      ]
+    },
+    {
+      "slug": "majidi",
+      "surah": 48,
+      "failed": 4,
+      "sample": [
+        {
+          "item": 2,
+          "error": "fetch failed"
+        },
+        {
+          "item": 1,
+          "error": "fetch failed"
+        },
+        {
+          "item": 4,
+          "error": "This operation was aborted"
+        }
+      ]
+    },
+    {
+      "slug": "aasantarjumaquran",
+      "surah": 5,
+      "failed": 2,
+      "sample": [
+        {
+          "item": 117,
+          "error": "fetch failed"
+        },
+        {
+          "item": 118,
+          "error": "fetch failed"
+        }
+      ]
+    },
+    {
+      "slug": "aasantarjumaquran",
+      "surah": 18,
+      "failed": 2,
+      "sample": [
+        {
+          "item": 102,
+          "error": "fetch failed"
+        },
+        {
+          "item": 103,
+          "error": "fetch failed"
+        }
+      ]
+    },
+    {
+      "slug": "aasantarjumaquran",
+      "surah": 37,
+      "failed": 3,
+      "sample": [
+        {
+          "item": 78,
+          "error": "fetch failed"
+        },
+        {
+          "item": 81,
+          "error": "fetch failed"
+        },
+        {
+          "item": 82,
+          "error": "fetch failed"
+        }
+      ]
+    },
+    {
+      "slug": "aasantarjumaquran",
+      "surah": 60,
+      "failed": 4,
+      "sample": [
+        {
+          "item": 7,
+          "error": "fetch failed"
+        },
+        {
+          "item": 8,
+          "error": "fetch failed"
+        },
+        {
+          "item": 10,
+          "error": "404 Not Found: https://equranlibrary.com/tafseer/aasantarjumaquran/60/10"
+        }
+      ]
+    },
+    {
+      "slug": "mazharulquran",
+      "surah": 26,
+      "failed": 2,
+      "sample": [
+        {
+          "item": 225,
+          "error": "fetch failed"
+        },
+        {
+          "item": 227,
+          "error": "fetch failed"
+        }
+      ]
+    },
+    {
+      "slug": "mazharulquran",
+      "surah": 27,
+      "failed": 2,
+      "sample": [
+        {
+          "item": 1,
+          "error": "fetch failed"
+        },
+        {
+          "item": 2,
+          "error": "fetch failed"
+        }
+      ]
+    },
+    {
+      "slug": "jawahirulquran",
+      "surah": 14,
+      "failed": 2,
+      "sample": [
+        {
+          "item": 44,
+          "error": "fetch failed"
+        },
+        {
+          "item": 43,
+          "error": "fetch failed"
+        }
+      ]
+    },
+    {
+      "slug": "jawahirulquran",
+      "surah": 28,
+      "failed": 3,
+      "sample": [
+        {
+          "item": 28,
+          "error": "fetch failed"
+        },
+        {
+          "item": 31,
+          "error": "fetch failed"
+        },
+        {
+          "item": 32,
+          "error": "fetch failed"
+        }
+      ]
+    },
+    {
+      "slug": "jawahirulquran",
+      "surah": 58,
+      "failed": 1,
+      "sample": [
+        {
+          "item": 7,
+          "error": "This operation was aborted"
+        }
+      ]
+    },
+    {
+      "slug": "jawahirulquran",
+      "surah": 91,
+      "failed": 4,
+      "sample": [
+        {
+          "item": 10,
+          "error": "fetch failed"
+        },
+        {
+          "item": 11,
+          "error": "fetch failed"
+        },
+        {
+          "item": 12,
+          "error": "fetch failed"
+        }
+      ]
+    },
+    {
+      "slug": "fahmulquran",
+      "surah": 6,
+      "failed": 2,
+      "sample": [
+        {
+          "item": 86,
+          "error": "fetch failed"
+        },
+        {
+          "item": 85,
+          "error": "fetch failed"
+        }
+      ]
+    },
+    {
+      "slug": "fahmulquran",
+      "surah": 20,
+      "failed": 2,
+      "sample": [
+        {
+          "item": 111,
+          "error": "HTTP 503: https://equranlibrary.com/tafseer/fahmulquran/20/111"
+        },
+        {
+          "item": 112,
+          "error": "fetch failed"
+        }
+      ]
+    },
+    {
+      "slug": "fahmulquran",
+      "surah": 33,
+      "failed": 3,
+      "sample": [
+        {
+          "item": 17,
+          "error": "fetch failed"
+        },
+        {
+          "item": 28,
+          "error": "fetch failed"
+        },
+        {
+          "item": 29,
+          "error": "fetch failed"
+        }
+      ]
+    },
+    {
+      "slug": "fahmulquran",
+      "surah": 91,
+      "failed": 2,
+      "sample": [
+        {
+          "item": 6,
+          "error": "fetch failed"
+        },
+        {
+          "item": 8,
+          "error": "fetch failed"
+        }
+      ]
+    },
+    {
+      "slug": "mutaliyaquran",
+      "surah": 5,
+      "failed": 2,
+      "sample": [
+        {
+          "item": 32,
+          "error": "fetch failed"
+        },
+        {
+          "item": 34,
+          "error": "fetch failed"
+        }
+      ]
+    },
+    {
+      "slug": "mutaliyaquran",
+      "surah": 16,
+      "failed": 2,
+      "sample": [
+        {
+          "item": 11,
+          "error": "fetch failed"
+        },
+        {
+          "item": 12,
+          "error": "HTTP 503: https://equranlibrary.com/tafseer/mutaliyaquran/16/12"
+        }
+      ]
+    },
+    {
+      "slug": "mutaliyaquran",
+      "surah": 30,
+      "failed": 2,
+      "sample": [
+        {
+          "item": 18,
+          "error": "fetch failed"
+        },
+        {
+          "item": 19,
+          "error": "fetch failed"
+        }
+      ]
+    },
+    {
+      "slug": "mutaliyaquran",
+      "surah": 53,
+      "failed": 2,
+      "sample": [
+        {
+          "item": 29,
+          "error": "fetch failed"
+        },
+        {
+          "item": 30,
+          "error": "fetch failed"
+        }
+      ]
+    },
+    {
+      "slug": "mutaliyaquran",
+      "surah": 16,
+      "failed": 2,
+      "sample": [
+        {
+          "item": 76,
+          "error": "fetch failed"
+        },
+        {
+          "item": 77,
+          "error": "fetch failed"
+        }
+      ]
+    },
+    {
+      "slug": "maarifulqurankandhalwi",
+      "surah": 6,
+      "failed": 2,
+      "sample": [
+        {
+          "item": 66,
+          "error": "fetch failed"
+        },
+        {
+          "item": 68,
+          "error": "fetch failed"
+        }
+      ]
+    },
+    {
+      "slug": "maarifulqurankandhalwi",
+      "surah": 18,
+      "failed": 2,
+      "sample": [
+        {
+          "item": 36,
+          "error": "fetch failed"
+        },
+        {
+          "item": 38,
+          "error": "fetch failed"
+        }
+      ]
+    },
+    {
+      "slug": "maarifulqurankandhalwi",
+      "surah": 36,
+      "failed": 4,
+      "sample": [
+        {
+          "item": 64,
+          "error": "fetch failed"
+        },
+        {
+          "item": 65,
+          "error": "fetch failed"
+        },
+        {
+          "item": 66,
+          "error": "fetch failed"
+        }
+      ]
+    },
+    {
+      "slug": "maarifulqurankandhalwi",
+      "surah": 64,
+      "failed": 2,
+      "sample": [
+        {
+          "item": 14,
+          "error": "HTTP 503: https://equranlibrary.com/tafseer/maarifulqurankandhalwi/64/14"
+        },
+        {
+          "item": 15,
+          "error": "fetch failed"
+        }
+      ]
+    },
+    {
+      "slug": "maarifulqurankandhalwi",
+      "surah": 6,
+      "failed": 4,
+      "sample": [
+        {
+          "item": 93,
+          "error": "fetch failed"
+        },
+        {
+          "item": 95,
+          "error": "fetch failed"
+        },
+        {
+          "item": 96,
+          "error": "HTTP 503: https://equranlibrary.com/tafseer/maarifulqurankandhalwi/6/96"
+        }
+      ]
+    },
+    {
+      "slug": "mufradatulquran",
+      "surah": 3,
+      "failed": 2,
+      "sample": [
+        {
+          "item": 160,
+          "error": "fetch failed"
+        },
+        {
+          "item": 162,
+          "error": "fetch failed"
+        }
+      ]
+    },
+    {
+      "slug": "mufradatulquran",
+      "surah": 9,
+      "failed": 2,
+      "sample": [
+        {
+          "item": 39,
+          "error": "fetch failed"
+        },
+        {
+          "item": 41,
+          "error": "HTTP 503: https://equranlibrary.com/tafseer/mufradatulquran/9/41"
+        }
+      ]
+    },
+    {
+      "slug": "mufradatulquran",
+      "surah": 16,
+      "failed": 2,
+      "sample": [
+        {
+          "item": 17,
+          "error": "fetch failed"
+        },
+        {
+          "item": 18,
+          "error": "fetch failed"
+        }
+      ]
+    },
+    {
+      "slug": "mufradatulquran",
+      "surah": 23,
+      "failed": 2,
+      "sample": [
+        {
+          "item": 86,
+          "error": "fetch failed"
+        },
+        {
+          "item": 87,
+          "error": "fetch failed"
+        }
+      ]
+    },
+    {
+      "slug": "mufradatulquran",
+      "surah": 34,
+      "failed": 1,
+      "sample": [
+        {
+          "item": 18,
+          "error": "fetch failed"
+        }
+      ]
+    },
+    {
+      "slug": "mufradatulquran",
+      "surah": 38,
+      "failed": 4,
+      "sample": [
+        {
+          "item": 3,
+          "error": "fetch failed"
+        },
+        {
+          "item": 4,
+          "error": "fetch failed"
+        },
+        {
+          "item": 5,
+          "error": "fetch failed"
+        }
+      ]
+    },
+    {
+      "slug": "mufradatulquran",
+      "surah": 39,
+      "failed": 2,
+      "sample": [
+        {
+          "item": 71,
+          "error": "fetch failed"
+        },
+        {
+          "item": 70,
+          "error": "fetch failed"
+        }
+      ]
+    },
+    {
+      "slug": "mufradatulquran",
+      "surah": 40,
+      "failed": 2,
+      "sample": [
+        {
+          "item": 1,
+          "error": "fetch failed"
+        },
+        {
+          "item": 2,
+          "error": "fetch failed"
+        }
+      ]
+    },
+    {
+      "slug": "mufradatulquran",
+      "surah": 41,
+      "failed": 14,
+      "sample": [
+        {
+          "item": 29,
+          "error": "fetch failed"
+        },
+        {
+          "item": 30,
+          "error": "fetch failed"
+        },
+        {
+          "item": 31,
+          "error": "fetch failed"
+        }
+      ]
+    },
+    {
+      "slug": "mufradatulquran",
+      "surah": 77,
+      "failed": 2,
+      "sample": [
+        {
+          "item": 9,
+          "error": "fetch failed"
+        },
+        {
+          "item": 10,
+          "error": "fetch failed"
+        }
+      ]
+    },
+    {
+      "slug": "mufradatulquran",
+      "surah": 80,
+      "failed": 10,
+      "sample": [
+        {
+          "item": 14,
+          "error": "fetch failed"
+        },
+        {
+          "item": 15,
+          "error": "fetch failed"
+        },
+        {
+          "item": 12,
+          "error": "fetch failed"
+        }
+      ]
+    },
+    {
+      "slug": "mufradatulquran",
+      "surah": 88,
+      "failed": 4,
+      "sample": [
+        {
+          "item": 7,
+          "error": "fetch failed"
+        },
+        {
+          "item": 8,
+          "error": "fetch failed"
+        },
+        {
+          "item": 9,
+          "error": "fetch failed"
+        }
+      ]
+    },
+    {
+      "slug": "mufradatulquran",
+      "surah": 39,
+      "failed": 1,
+      "sample": [
+        {
+          "item": 75,
+          "error": "fetch failed"
+        }
+      ]
+    },
+    {
+      "slug": "mufradatulquran",
+      "surah": 40,
+      "failed": 52,
+      "sample": [
+        {
+          "item": 4,
+          "error": "fetch failed"
+        },
+        {
+          "item": 5,
+          "error": "fetch failed"
+        },
+        {
+          "item": 3,
+          "error": "fetch failed"
+        }
+      ]
+    },
+    {
+      "slug": "ruhulquran",
+      "surah": 7,
+      "failed": 2,
+      "sample": [
+        {
+          "item": 4,
+          "error": "fetch failed"
+        },
+        {
+          "item": 6,
+          "error": "fetch failed"
+        }
+      ]
+    },
+    {
+      "slug": "ruhulquran",
+      "surah": 28,
+      "failed": 2,
+      "sample": [
+        {
+          "item": 55,
+          "error": "fetch failed"
+        },
+        {
+          "item": 56,
+          "error": "fetch failed"
+        }
+      ]
+    },
+    {
+      "slug": "ruhulquran",
+      "surah": 70,
+      "failed": 2,
+      "sample": [
+        {
+          "item": 17,
+          "error": "fetch failed"
+        },
+        {
+          "item": 18,
+          "error": "fetch failed"
+        }
+      ]
+    },
+    {
+      "slug": "sirajulbayan",
+      "surah": 2,
+      "failed": 2,
+      "sample": [
+        {
+          "item": 260,
+          "error": "fetch failed"
+        },
+        {
+          "item": 263,
+          "error": "fetch failed"
+        }
+      ]
+    },
+    {
+      "slug": "sirajulbayan",
+      "surah": 9,
+      "failed": 2,
+      "sample": [
+        {
+          "item": 119,
+          "error": "fetch failed"
+        },
+        {
+          "item": 121,
+          "error": "fetch failed"
+        }
+      ]
     }
   ]
 }

@@ -98,5 +98,80 @@
     "slug": "tibyanulquran",
     "name": "Tibyan-ul-Quran",
     "author": "Ghulam Rasool Saeedi"
+  },
+  {
+    "slug": "ahkamulquran",
+    "name": "Ahkam-ul-Quran",
+    "author": "Imam Abu Bakr al-Jassas"
+  },
+  {
+    "slug": "ahsanuttafaseer",
+    "name": "Ahsan-ut-Tafaseer",
+    "author": "Hafiz Muhammad Syed Ahmad Hasan"
+  },
+  {
+    "slug": "alquranalkareem",
+    "name": "Al-Quran-al-Kareem",
+    "author": "Maulana Abdus Salam Bhatvi"
+  },
+  {
+    "slug": "anwarulbayan",
+    "name": "Anwar-ul-Bayan",
+    "author": "Maulana Ashiq Ilahi Madani"
+  },
+  {
+    "slug": "anwarulbayanali",
+    "name": "Anwar-ul-Bayan (Ali)",
+    "author": "Muhammad Ali PCS"
+  },
+  {
+    "slug": "ashrafulhawashi",
+    "name": "Ashraf-ul-Hawashi",
+    "author": "Sheikh Muhammad Abdul Falah"
+  },
+  {
+    "slug": "asratuttanzil",
+    "name": "Asrar-ut-Tanzil",
+    "author": "Maulana Muhammad Akram Awan"
+  },
+  {
+    "slug": "baseeratequran",
+    "name": "Baseerat-e-Quran",
+    "author": "Maulana Muhammad Asif Qasmi"
+  },
+  {
+    "slug": "kashfurrahman",
+    "name": "Kashf-ur-Rahman",
+    "author": "Maulana Ahmad Saeed Dehlvi"
+  },
+  {
+    "slug": "madani",
+    "name": "Tafseer-e-Madani",
+    "author": "Maulana Ishaq Madani"
+  },
+  {
+    "slug": "madarikuttanzil",
+    "name": "Madarik-ut-Tanzil",
+    "author": null
+  },
+  {
+    "slug": "mafhoomulquran",
+    "name": "Mafhoom-ul-Quran",
+    "author": "Rafat Ejaz"
+  },
+  {
+    "slug": "mualimulirfan",
+    "name": "Mu'alim-ul-Irfan",
+    "author": "Maulana Abdul Hameed Swati"
+  },
+  {
+    "slug": "tafseeralkitaab",
+    "name": "Tafseer-al-Kitaab",
+    "author": "Dr. Muhammad Usman"
+  },
+  {
+    "slug": "urwatulwusqa",
+    "name": "Urwatul-Wusqaa",
+    "author": "Allama Abdul Kareem Asri"
   }
 ]
