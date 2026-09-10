@@ -57,6 +57,27 @@ const TAFSIRS = [
   { slug: 'ruhulquran',        name: 'Ruh-ul-Quran',             author: 'Dr. Muhammad Aslam Siddiqui' },
   { slug: 'sirajulbayan',      name: 'Siraj-ul-Bayan',           author: null },
   { slug: 'tibyanulquran',     name: 'Tibyan-ul-Quran',          author: 'Ghulam Rasool Saeedi' },
+
+  // Batch 3 — per user request 2026-09-10 ("keep the next batches ready
+  // till we have all tafseers available"). This is the LAST batch: covers
+  // every one of the site's 46 tafsirs except the 11 already mirrored
+  // elsewhere (see top-of-file comment) — names/authors verified against
+  // /alltafaseer/1's own listing, not guessed.
+  { slug: 'ahkamulquran',      name: 'Ahkam-ul-Quran',           author: 'Imam Abu Bakr al-Jassas' },
+  { slug: 'ahsanuttafaseer',   name: 'Ahsan-ut-Tafaseer',        author: 'Hafiz Muhammad Syed Ahmad Hasan' },
+  { slug: 'alquranalkareem',   name: 'Al-Quran-al-Kareem',       author: 'Maulana Abdus Salam Bhatvi' },
+  { slug: 'anwarulbayan',      name: 'Anwar-ul-Bayan',           author: 'Maulana Ashiq Ilahi Madani' },
+  { slug: 'anwarulbayanali',   name: 'Anwar-ul-Bayan (Ali)',     author: 'Muhammad Ali PCS' }, // distinct slug/work from anwarulbayan above, despite the shared title
+  { slug: 'ashrafulhawashi',   name: 'Ashraf-ul-Hawashi',        author: 'Sheikh Muhammad Abdul Falah' },
+  { slug: 'asratuttanzil',     name: 'Asrar-ut-Tanzil',          author: 'Maulana Muhammad Akram Awan' },
+  { slug: 'baseeratequran',    name: 'Baseerat-e-Quran',         author: 'Maulana Muhammad Asif Qasmi' },
+  { slug: 'kashfurrahman',     name: 'Kashf-ur-Rahman',          author: 'Maulana Ahmad Saeed Dehlvi' },
+  { slug: 'madani',            name: 'Tafseer-e-Madani',         author: 'Maulana Ishaq Madani' },
+  { slug: 'madarikuttanzil',   name: 'Madarik-ut-Tanzil',        author: null }, // Urdu translation credited to Fateh Muhammad Jalandhry, original author unlisted on-site
+  { slug: 'mafhoomulquran',    name: 'Mafhoom-ul-Quran',         author: 'Rafat Ejaz' },
+  { slug: 'mualimulirfan',     name: "Mu'alim-ul-Irfan",         author: 'Maulana Abdul Hameed Swati' },
+  { slug: 'tafseeralkitaab',   name: 'Tafseer-al-Kitaab',        author: 'Dr. Muhammad Usman' },
+  { slug: 'urwatulwusqa',      name: 'Urwatul-Wusqaa',           author: 'Allama Abdul Kareem Asri' },
 ];
 
 async function main() {
