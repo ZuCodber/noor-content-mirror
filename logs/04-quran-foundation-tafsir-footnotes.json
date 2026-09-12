@@ -1,252 +1,464 @@
 {
-  "startedAt": "2026-09-09T13:00:54.024Z",
-  "finishedAt": "2026-09-09T13:06:27.531Z",
+  "startedAt": "2026-09-12T06:59:45.154Z",
+  "finishedAt": "2026-09-12T07:11:39.159Z",
   "events": [
     {
       "level": "info",
       "msg": "Tafsir resources: 20",
-      "t": 1788958854028
+      "t": 1789196385215
     },
     {
       "level": "info",
       "msg": "tafsir 169 — ok=114 failed=0",
-      "t": 1788958854036
+      "t": 1789196385282
     },
     {
       "level": "info",
       "msg": "tafsir 381 — ok=114 failed=0",
-      "t": 1788958854040
+      "t": 1789196385315
     },
     {
       "level": "info",
       "msg": "tafsir 16 — ok=114 failed=0",
-      "t": 1788958854043
+      "t": 1789196385400
     },
     {
       "level": "info",
       "msg": "tafsir 165 — ok=114 failed=0",
-      "t": 1788958854047
+      "t": 1789196385470
     },
     {
       "level": "info",
       "msg": "tafsir 166 — ok=114 failed=0",
-      "t": 1788958854051
+      "t": 1789196385569
     },
     {
       "level": "info",
       "msg": "tafsir 93 — ok=114 failed=0",
-      "t": 1788958854054
+      "t": 1789196385600
     },
     {
       "level": "info",
       "msg": "tafsir 14 — ok=114 failed=0",
-      "t": 1788958854057
+      "t": 1789196385644
     },
     {
       "level": "info",
       "msg": "tafsir 15 — ok=114 failed=0",
-      "t": 1788958854061
+      "t": 1789196385718
     },
     {
       "level": "info",
       "msg": "tafsir 164 — ok=114 failed=0",
-      "t": 1788958854065
+      "t": 1789196385789
     },
     {
       "level": "info",
       "msg": "tafsir 90 — ok=114 failed=0",
-      "t": 1788958854069
+      "t": 1789196385900
     },
     {
       "level": "info",
       "msg": "tafsir 168 — ok=114 failed=0",
-      "t": 1788958854073
+      "t": 1789196385945
     },
     {
       "level": "info",
       "msg": "tafsir 91 — ok=114 failed=0",
-      "t": 1788958854078
+      "t": 1789196386001
     },
     {
       "level": "info",
       "msg": "tafsir 170 — ok=114 failed=0",
-      "t": 1788958854081
+      "t": 1789196386019
     },
     {
       "level": "info",
       "msg": "tafsir 94 — ok=114 failed=0",
-      "t": 1788958854085
+      "t": 1789196386044
     },
     {
       "level": "info",
       "msg": "tafsir 157 — ok=114 failed=0",
-      "t": 1788958854090
+      "t": 1789196386108
     },
     {
       "level": "info",
       "msg": "tafsir 804 — ok=114 failed=0",
-      "t": 1788958854095
+      "t": 1789196386139
     },
     {
       "level": "info",
       "msg": "tafsir 817 — ok=114 failed=0",
-      "t": 1788958854098
+      "t": 1789196386177
     },
     {
       "level": "info",
       "msg": "tafsir 160 — ok=114 failed=0",
-      "t": 1788958854101
+      "t": 1789196386188
     },
     {
       "level": "info",
       "msg": "tafsir 818 — ok=114 failed=0",
-      "t": 1788958854104
+      "t": 1789196386244
     },
     {
       "level": "info",
       "msg": "tafsir 159 — ok=114 failed=0",
-      "t": 1788958854107
+      "t": 1789196386325
     },
     {
       "level": "info",
       "msg": "Scanning downloaded verses for footnote references...",
-      "t": 1788958854107
+      "t": 1789196386325
     },
     {
       "level": "info",
-      "msg": "Unique footnote ids referenced: 47522",
-      "t": 1788958856332
+      "msg": "Unique footnote ids referenced: 68775",
+      "t": 1789196392050
     },
     {
       "level": "info",
-      "msg": "Footnotes done. ok=1281 failed=124 totalStored=47398",
-      "t": 1788959187531
+      "msg": "Footnotes done. ok=21230 failed=147 totalStored=68628",
+      "t": 1789197099158
     }
   ],
   "tafsirOk": 2280,
   "tafsirFailed": 0,
-  "footnotesOk": 1281,
-  "footnotesFailed": 124,
+  "footnotesOk": 21230,
+  "footnotesFailed": 147,
   "footnoteFailures": [
     {
-      "item": 152014,
-      "error": "HTTP 503 foot_note 152014"
+      "item": 134969,
+      "error": "HTTP 404 foot_note 134969"
     },
     {
-      "item": 204389,
-      "error": "HTTP 503 foot_note 204389"
+      "item": 134973,
+      "error": "HTTP 404 foot_note 134973"
     },
     {
-      "item": 204388,
-      "error": "HTTP 503 foot_note 204388"
+      "item": 168392,
+      "error": "HTTP 404 foot_note 168392"
     },
     {
-      "item": 213700,
-      "error": "HTTP 503 foot_note 213700"
+      "item": 134984,
+      "error": "HTTP 404 foot_note 134984"
     },
     {
-      "item": 198963,
-      "error": "HTTP 503 foot_note 198963"
+      "item": 134992,
+      "error": "HTTP 404 foot_note 134992"
     },
     {
-      "item": 169606,
-      "error": "HTTP 503 foot_note 169606"
+      "item": 135005,
+      "error": "HTTP 404 foot_note 135005"
     },
     {
-      "item": 135309,
-      "error": "HTTP 503 foot_note 135309"
+      "item": 135006,
+      "error": "HTTP 404 foot_note 135006"
     },
     {
-      "item": 210365,
-      "error": "HTTP 503 foot_note 210365"
+      "item": 135014,
+      "error": "HTTP 404 foot_note 135014"
     },
     {
-      "item": 198964,
-      "error": "HTTP 503 foot_note 198964"
+      "item": 135019,
+      "error": "HTTP 404 foot_note 135019"
     },
     {
-      "item": 211950,
-      "error": "HTTP 503 foot_note 211950"
+      "item": 135022,
+      "error": "HTTP 404 foot_note 135022"
     },
     {
-      "item": 83377,
-      "error": "HTTP 503 foot_note 83377"
+      "item": 135028,
+      "error": "HTTP 404 foot_note 135028"
     },
     {
-      "item": 112535,
-      "error": "HTTP 503 foot_note 112535"
+      "item": 135033,
+      "error": "HTTP 404 foot_note 135033"
     },
     {
-      "item": 112536,
-      "error": "HTTP 503 foot_note 112536"
+      "item": 135039,
+      "error": "HTTP 404 foot_note 135039"
     },
     {
-      "item": 162368,
-      "error": "HTTP 503 foot_note 162368"
+      "item": 135050,
+      "error": "HTTP 404 foot_note 135050"
     },
     {
-      "item": 178162,
-      "error": "HTTP 503 foot_note 178162"
+      "item": 135057,
+      "error": "HTTP 404 foot_note 135057"
     },
     {
-      "item": 210370,
-      "error": "HTTP 503 foot_note 210370"
+      "item": 135059,
+      "error": "HTTP 404 foot_note 135059"
     },
     {
-      "item": 210371,
-      "error": "HTTP 503 foot_note 210371"
+      "item": 135063,
+      "error": "HTTP 404 foot_note 135063"
     },
     {
-      "item": 213705,
-      "error": "HTTP 503 foot_note 213705"
+      "item": 135075,
+      "error": "HTTP 404 foot_note 135075"
     },
     {
-      "item": 206767,
-      "error": "HTTP 503 foot_note 206767"
+      "item": 135079,
+      "error": "HTTP 404 foot_note 135079"
     },
     {
-      "item": 198965,
-      "error": "HTTP 503 foot_note 198965"
+      "item": 168489,
+      "error": "HTTP 404 foot_note 168489"
     },
     {
-      "item": 83378,
-      "error": "HTTP 503 foot_note 83378"
+      "item": 135086,
+      "error": "HTTP 404 foot_note 135086"
     },
     {
-      "item": 152024,
-      "error": "HTTP 503 foot_note 152024"
+      "item": 135103,
+      "error": "HTTP 404 foot_note 135103"
     },
     {
-      "item": 198966,
-      "error": "HTTP 503 foot_note 198966"
+      "item": 135104,
+      "error": "HTTP 404 foot_note 135104"
     },
     {
-      "item": 152025,
-      "error": "HTTP 503 foot_note 152025"
+      "item": 135107,
+      "error": "HTTP 404 foot_note 135107"
     },
     {
-      "item": 184058,
-      "error": "HTTP 503 foot_note 184058"
+      "item": 135108,
+      "error": "HTTP 404 foot_note 135108"
     },
     {
-      "item": 162369,
-      "error": "HTTP 503 foot_note 162369"
+      "item": 135118,
+      "error": "HTTP 404 foot_note 135118"
     },
     {
-      "item": 178163,
-      "error": "HTTP 503 foot_note 178163"
+      "item": 135120,
+      "error": "HTTP 404 foot_note 135120"
     },
     {
-      "item": 83379,
-      "error": "HTTP 503 foot_note 83379"
+      "item": 135125,
+      "error": "HTTP 404 foot_note 135125"
     },
     {
-      "item": 210372,
-      "error": "HTTP 503 foot_note 210372"
+      "item": 135126,
+      "error": "HTTP 404 foot_note 135126"
     },
     {
-      "item": 152026,
-      "error": "HTTP 503 foot_note 152026"
+      "item": 135131,
+      "error": "HTTP 404 foot_note 135131"
+    },
+    {
+      "item": 135135,
+      "error": "HTTP 404 foot_note 135135"
+    },
+    {
+      "item": 135139,
+      "error": "HTTP 404 foot_note 135139"
+    },
+    {
+      "item": 135140,
+      "error": "HTTP 404 foot_note 135140"
+    },
+    {
+      "item": 135143,
+      "error": "HTTP 404 foot_note 135143"
+    },
+    {
+      "item": 135145,
+      "error": "HTTP 404 foot_note 135145"
+    },
+    {
+      "item": 168505,
+      "error": "HTTP 404 foot_note 168505"
+    },
+    {
+      "item": 151573,
+      "error": "HTTP 404 foot_note 151573"
+    },
+    {
+      "item": 135149,
+      "error": "HTTP 404 foot_note 135149"
+    },
+    {
+      "item": 135150,
+      "error": "HTTP 404 foot_note 135150"
+    },
+    {
+      "item": 135151,
+      "error": "HTTP 404 foot_note 135151"
+    },
+    {
+      "item": 135160,
+      "error": "HTTP 404 foot_note 135160"
+    },
+    {
+      "item": 135165,
+      "error": "HTTP 404 foot_note 135165"
+    },
+    {
+      "item": 135167,
+      "error": "HTTP 404 foot_note 135167"
+    },
+    {
+      "item": 135171,
+      "error": "HTTP 404 foot_note 135171"
+    },
+    {
+      "item": 135172,
+      "error": "HTTP 404 foot_note 135172"
+    },
+    {
+      "item": 135177,
+      "error": "HTTP 404 foot_note 135177"
+    },
+    {
+      "item": 135180,
+      "error": "HTTP 404 foot_note 135180"
+    },
+    {
+      "item": 135182,
+      "error": "HTTP 404 foot_note 135182"
+    },
+    {
+      "item": 135183,
+      "error": "HTTP 404 foot_note 135183"
+    },
+    {
+      "item": 135186,
+      "error": "HTTP 404 foot_note 135186"
+    },
+    {
+      "item": 135200,
+      "error": "HTTP 404 foot_note 135200"
+    },
+    {
+      "item": 135199,
+      "error": "HTTP 404 foot_note 135199"
+    },
+    {
+      "item": 135205,
+      "error": "HTTP 404 foot_note 135205"
+    },
+    {
+      "item": 135206,
+      "error": "HTTP 404 foot_note 135206"
+    },
+    {
+      "item": 135207,
+      "error": "HTTP 404 foot_note 135207"
+    },
+    {
+      "item": 135208,
+      "error": "HTTP 404 foot_note 135208"
+    },
+    {
+      "item": 135210,
+      "error": "HTTP 404 foot_note 135210"
+    },
+    {
+      "item": 135211,
+      "error": "HTTP 404 foot_note 135211"
+    },
+    {
+      "item": 135213,
+      "error": "HTTP 404 foot_note 135213"
+    },
+    {
+      "item": 135212,
+      "error": "HTTP 404 foot_note 135212"
+    },
+    {
+      "item": 135217,
+      "error": "HTTP 404 foot_note 135217"
+    },
+    {
+      "item": 135225,
+      "error": "HTTP 404 foot_note 135225"
+    },
+    {
+      "item": 135228,
+      "error": "HTTP 404 foot_note 135228"
+    },
+    {
+      "item": 135231,
+      "error": "HTTP 404 foot_note 135231"
+    },
+    {
+      "item": 135233,
+      "error": "HTTP 404 foot_note 135233"
+    },
+    {
+      "item": 135236,
+      "error": "HTTP 404 foot_note 135236"
+    },
+    {
+      "item": 168525,
+      "error": "HTTP 404 foot_note 168525"
+    },
+    {
+      "item": 135242,
+      "error": "HTTP 404 foot_note 135242"
+    },
+    {
+      "item": 135243,
+      "error": "HTTP 404 foot_note 135243"
+    },
+    {
+      "item": 135245,
+      "error": "HTTP 404 foot_note 135245"
+    },
+    {
+      "item": 135244,
+      "error": "HTTP 404 foot_note 135244"
+    },
+    {
+      "item": 135247,
+      "error": "HTTP 404 foot_note 135247"
+    },
+    {
+      "item": 135250,
+      "error": "HTTP 404 foot_note 135250"
+    },
+    {
+      "item": 135251,
+      "error": "HTTP 404 foot_note 135251"
+    },
+    {
+      "item": 135252,
+      "error": "HTTP 404 foot_note 135252"
+    },
+    {
+      "item": 135257,
+      "error": "HTTP 404 foot_note 135257"
+    },
+    {
+      "item": 135264,
+      "error": "HTTP 404 foot_note 135264"
+    },
+    {
+      "item": 135283,
+      "error": "HTTP 404 foot_note 135283"
+    },
+    {
+      "item": 168564,
+      "error": "HTTP 404 foot_note 168564"
+    },
+    {
+      "item": 135287,
+      "error": "HTTP 404 foot_note 135287"
+    },
+    {
+      "item": 135290,
+      "error": "HTTP 404 foot_note 135290"
+    },
+    {
+      "item": 135291,
+      "error": "HTTP 404 foot_note 135291"
+    },
+    {
+      "item": 135299,
+      "error": "HTTP 404 foot_note 135299"
     },
     {
       "item": 135315,
@@ -257,116 +469,16 @@
       "error": "HTTP 404 foot_note 135316"
     },
     {
-      "item": 196430,
-      "error": "HTTP 503 foot_note 196430"
-    },
-    {
-      "item": 211496,
-      "error": "HTTP 503 foot_note 211496"
-    },
-    {
-      "item": 195367,
-      "error": "HTTP 503 foot_note 195367"
-    },
-    {
-      "item": 196431,
-      "error": "HTTP 503 foot_note 196431"
-    },
-    {
       "item": 135318,
       "error": "HTTP 404 foot_note 135318"
     },
     {
-      "item": 157279,
-      "error": "fetch failed"
+      "item": 168626,
+      "error": "HTTP 404 foot_note 168626"
     },
     {
-      "item": 210369,
-      "error": "fetch failed"
-    },
-    {
-      "item": 194863,
-      "error": "HTTP 503 foot_note 194863"
-    },
-    {
-      "item": 184306,
-      "error": "HTTP 503 foot_note 184306"
-    },
-    {
-      "item": 162783,
-      "error": "HTTP 503 foot_note 162783"
-    },
-    {
-      "item": 157480,
-      "error": "HTTP 503 foot_note 157480"
-    },
-    {
-      "item": 152242,
-      "error": "HTTP 503 foot_note 152242"
-    },
-    {
-      "item": 210474,
-      "error": "HTTP 503 foot_note 210474"
-    },
-    {
-      "item": 149398,
-      "error": "HTTP 503 foot_note 149398"
-    },
-    {
-      "item": 112687,
-      "error": "HTTP 503 foot_note 112687"
-    },
-    {
-      "item": 195626,
-      "error": "HTTP 503 foot_note 195626"
-    },
-    {
-      "item": 145036,
-      "error": "HTTP 503 foot_note 145036"
-    },
-    {
-      "item": 112688,
-      "error": "HTTP 503 foot_note 112688"
-    },
-    {
-      "item": 150489,
-      "error": "HTTP 503 foot_note 150489"
-    },
-    {
-      "item": 132057,
-      "error": "HTTP 503 foot_note 132057"
-    },
-    {
-      "item": 213815,
-      "error": "HTTP 503 foot_note 213815"
-    },
-    {
-      "item": 147519,
-      "error": "HTTP 503 foot_note 147519"
-    },
-    {
-      "item": 199310,
-      "error": "HTTP 503 foot_note 199310"
-    },
-    {
-      "item": 199311,
-      "error": "HTTP 503 foot_note 199311"
-    },
-    {
-      "item": 199312,
-      "error": "HTTP 503 foot_note 199312"
-    },
-    {
-      "item": 162784,
-      "error": "HTTP 503 foot_note 162784"
-    },
-    {
-      "item": 154612,
-      "error": "HTTP 503 foot_note 154612"
-    },
-    {
-      "item": 152243,
-      "error": "HTTP 503 foot_note 152243"
+      "item": 135328,
+      "error": "HTTP 404 foot_note 135328"
     },
     {
       "item": 135352,
@@ -389,10 +501,6 @@
       "error": "HTTP 404 foot_note 135404"
     },
     {
-      "item": 163407,
-      "error": "HTTP 404 foot_note 163407"
-    },
-    {
       "item": 135425,
       "error": "HTTP 404 foot_note 135425"
     },
@@ -401,16 +509,16 @@
       "error": "HTTP 404 foot_note 135445"
     },
     {
-      "item": 163860,
-      "error": "HTTP 404 foot_note 163860"
+      "item": 163407,
+      "error": "HTTP 404 foot_note 163407"
     },
     {
       "item": 135453,
       "error": "HTTP 404 foot_note 135453"
     },
     {
-      "item": 135465,
-      "error": "HTTP 404 foot_note 135465"
+      "item": 163860,
+      "error": "HTTP 404 foot_note 163860"
     },
     {
       "item": 135491,
@@ -421,8 +529,8 @@
       "error": "HTTP 404 foot_note 164144"
     },
     {
-      "item": 135498,
-      "error": "HTTP 404 foot_note 135498"
+      "item": 135465,
+      "error": "HTTP 404 foot_note 135465"
     },
     {
       "item": 164176,
@@ -433,28 +541,28 @@
       "error": "HTTP 404 foot_note 164157"
     },
     {
-      "item": 135515,
-      "error": "HTTP 404 foot_note 135515"
+      "item": 135498,
+      "error": "HTTP 404 foot_note 135498"
     },
     {
-      "item": 164744,
-      "error": "HTTP 404 foot_note 164744"
+      "item": 135515,
+      "error": "HTTP 404 foot_note 135515"
     },
     {
       "item": 164615,
       "error": "HTTP 404 foot_note 164615"
     },
     {
-      "item": 168946,
-      "error": "HTTP 404 foot_note 168946"
-    },
-    {
-      "item": 168971,
-      "error": "HTTP 404 foot_note 168971"
+      "item": 164744,
+      "error": "HTTP 404 foot_note 164744"
     },
     {
       "item": 164885,
       "error": "HTTP 404 foot_note 164885"
+    },
+    {
+      "item": 168971,
+      "error": "HTTP 404 foot_note 168971"
     },
     {
       "item": 168972,
@@ -465,16 +573,20 @@
       "error": "HTTP 404 foot_note 165258"
     },
     {
+      "item": 168946,
+      "error": "HTTP 404 foot_note 168946"
+    },
+    {
       "item": 135585,
       "error": "HTTP 404 foot_note 135585"
     },
     {
-      "item": 135618,
-      "error": "HTTP 404 foot_note 135618"
-    },
-    {
       "item": 135606,
       "error": "HTTP 404 foot_note 135606"
+    },
+    {
+      "item": 135618,
+      "error": "HTTP 404 foot_note 135618"
     },
     {
       "item": 135629,
@@ -493,6 +605,10 @@
       "error": "HTTP 404 foot_note 165401"
     },
     {
+      "item": 135659,
+      "error": "HTTP 404 foot_note 135659"
+    },
+    {
       "item": 135640,
       "error": "HTTP 404 foot_note 135640"
     },
@@ -507,10 +623,6 @@
     {
       "item": 169070,
       "error": "HTTP 404 foot_note 169070"
-    },
-    {
-      "item": 135659,
-      "error": "HTTP 404 foot_note 135659"
     },
     {
       "item": 165813,
@@ -529,20 +641,16 @@
       "error": "HTTP 404 foot_note 165866"
     },
     {
+      "item": 166137,
+      "error": "HTTP 404 foot_note 166137"
+    },
+    {
       "item": 135710,
       "error": "HTTP 404 foot_note 135710"
     },
     {
       "item": 166055,
       "error": "HTTP 404 foot_note 166055"
-    },
-    {
-      "item": 166137,
-      "error": "HTTP 404 foot_note 166137"
-    },
-    {
-      "item": 153585,
-      "error": "HTTP 404 foot_note 153585"
     },
     {
       "item": 153575,
@@ -553,20 +661,32 @@
       "error": "HTTP 404 foot_note 166210"
     },
     {
-      "item": 135729,
-      "error": "HTTP 404 foot_note 135729"
+      "item": 153585,
+      "error": "HTTP 404 foot_note 153585"
     },
     {
       "item": 166454,
       "error": "HTTP 404 foot_note 166454"
     },
     {
+      "item": 135729,
+      "error": "HTTP 404 foot_note 135729"
+    },
+    {
       "item": 166927,
       "error": "HTTP 404 foot_note 166927"
     },
     {
+      "item": 167334,
+      "error": "HTTP 404 foot_note 167334"
+    },
+    {
       "item": 167351,
       "error": "HTTP 404 foot_note 167351"
+    },
+    {
+      "item": 167442,
+      "error": "HTTP 404 foot_note 167442"
     },
     {
       "item": 167485,
@@ -577,12 +697,12 @@
       "error": "HTTP 404 foot_note 167503"
     },
     {
-      "item": 167626,
-      "error": "HTTP 404 foot_note 167626"
-    },
-    {
       "item": 135803,
       "error": "HTTP 404 foot_note 135803"
+    },
+    {
+      "item": 167626,
+      "error": "HTTP 404 foot_note 167626"
     },
     {
       "item": 167785,
@@ -595,34 +715,6 @@
     {
       "item": 167857,
       "error": "HTTP 404 foot_note 167857"
-    },
-    {
-      "item": 178223,
-      "error": "fetch failed"
-    },
-    {
-      "item": 83634,
-      "error": "fetch failed"
-    },
-    {
-      "item": 162674,
-      "error": "fetch failed"
-    },
-    {
-      "item": 83635,
-      "error": "fetch failed"
-    },
-    {
-      "item": 184237,
-      "error": "fetch failed"
-    },
-    {
-      "item": 199199,
-      "error": "fetch failed"
-    },
-    {
-      "item": 212019,
-      "error": "fetch failed"
     }
   ]
 }
