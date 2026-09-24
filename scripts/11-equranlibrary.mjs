@@ -247,7 +247,13 @@ async function main() {
 
   let tafsirOk = 0, tafsirFailed = 0;
   const allTafsirFailures = [];
+  // ONLY_SLUGS=a,b,c restricts the run to those tafsirs. Added 2026-09-24 for
+  // the content-fix re-scrape: surahAlreadyFixed() can't recognise a short
+  // surah that legitimately has no newlines, so re-running the whole list
+  // would needlessly re-fetch parts of tafsirs that are already done.
+  const only = process.env.ONLY_SLUGS ? new Set(process.env.ONLY_SLUGS.split(',').map(s => s.trim())) : null;
   for (const { slug, name } of TAFSIRS) {
+    if (only && !only.has(slug)) continue;
     let pending = chapters.map(c => c.id);
     const resultsCache = new Map();
     // Initial pass over every surah, then up to 3 cleanup passes over
