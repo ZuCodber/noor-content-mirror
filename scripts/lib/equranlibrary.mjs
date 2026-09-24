@@ -25,16 +25,45 @@ async function getHtml(path) {
   return res.text();
 }
 
+// Two bugs found live 2026-09-23 (both caught by the user comparing our
+// output against a raw copy-paste from the site itself), same root cause —
+// being too aggressive about "cleaning up" text that actually carries real
+// structure:
+//
+// 1. The site's commentary blocks contain REAL, meaningful line breaks —
+//    not markup (no <br> tags anywhere; confirmed by grep), just literal
+//    newlines in the raw HTML — separating distinct points/paragraphs
+//    within a single ayah's commentary, and separating each ayah's own
+//    heading+text when several are grouped under one page. `\s+` -> ' ' was
+//    collapsing all of that into one run-on blob. Fixed to only collapse
+//    horizontal whitespace (spaces/tabs) per line, keep newlines as real
+//    line breaks, and only trim redundant *blank* lines (3+ in a row -> 2).
+//
+// 2. The inline <small><font class="tran-ss">N</font></small> markers are
+//    NOT redundant ayah-number noise (what they were originally added for,
+//    on a single-ayah detail page) — on the bulk grouped translation/
+//    commentary blocks this same markup carries real footnote-style
+//    reference numbers (e.g. "...ہے۔278نہ وہ سوتا..." in the translation,
+//    "سورة الْبَقَرَة 278" as a commentary heading) that link a specific
+//    phrase in the translation to its own commentary paragraph — deleting
+//    the whole tag deleted real reference numbers the user wants kept
+//    exactly. Fixed by no longer special-casing <small> at all: the
+//    generic tag-stripper below already does the right thing on its own
+//    (strips the <small>/<font> wrapper tags, keeps the enclosed number as
+//    plain inline text, exactly matching a raw copy-paste from the page).
 function stripTags(html) {
   return html
-    .replace(/<small>[\s\S]*?<\/small>/g, '') // strip the trailing "tran-ss" ayah-number footnote marker
+    .replace(/<br\s*\/?>/gi, '\n') // not observed on this site, but handle it if it ever appears
     .replace(/<[^>]+>/g, '')
     .replace(/&nbsp;/g, ' ')
     .replace(/&amp;/g, '&')
     .replace(/&lt;/g, '<')
     .replace(/&gt;/g, '>')
     .replace(/&quot;/g, '"')
-    .replace(/\s+/g, ' ')
+    .split('\n')
+    .map(line => line.replace(/[ \t]+/g, ' ').trim())
+    .join('\n')
+    .replace(/\n{3,}/g, '\n\n')
     .trim();
 }
 
