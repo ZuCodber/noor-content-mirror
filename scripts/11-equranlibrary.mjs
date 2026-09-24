@@ -129,14 +129,39 @@ async function main() {
   // delete-then-refetch — git already holds the pre-fix content in
   // history, so nothing is destroyed, only superseded.
   const FORCE = process.env.FORCE_REFETCH === '1';
-  // REFETCH_SINCE (ISO timestamp, optional): lets a restarted run skip any
-  // surah file already overwritten by a PREVIOUS invocation of this same
-  // FORCE_REFETCH pass (mtime >= this cutoff), while still force-refetching
-  // everything else that's still on old pre-fix data. Added 2026-09-23 so
-  // killing and restarting the re-scrape (e.g. to pick up the surah-level
-  // retry-granularity fix below) doesn't have to redo tafsirs/surahs that
-  // were already correctly re-fetched — only the untouched remainder.
-  const REFETCH_SINCE = process.env.REFETCH_SINCE ? new Date(process.env.REFETCH_SINCE).getTime() : null;
+  // Lets a restarted run skip any surah file that's ALREADY been re-fetched
+  // with the newline/footnote content fixes, while still force-refetching
+  // everything else still on old pre-fix data. Added 2026-09-23 so killing
+  // and restarting the re-scrape doesn't have to redo already-correct work.
+  //
+  // Originally this checked file mtime >= a REFETCH_SINCE cutoff, but that
+  // breaks the moment the repo is cloned/pulled on a different machine:
+  // `git checkout` sets every file's mtime to the checkout time, so ALL
+  // files — fixed AND still-broken — look equally "fresh," and the mtime
+  // check would have silently skipped everything, including the tafsirs
+  // that still need fixing. Found and fixed 2026-09-24, before handing the
+  // job off to a new laptop, specifically to avoid that trap.
+  //
+  // Fixed instead by checking the file's own CONTENT for the fix's actual
+  // signature (a real newline inside at least one ayah's commentary OR
+  // translation — checking both, not just commentary, because one tafsir
+  // found live 2026-09-24, tibyanulquran, has no separate commentary essay
+  // at all on the site: its "translation" field IS the complete text for
+  // every ayah, so a commentary-only check would never find evidence there
+  // and would pointlessly re-fetch that whole tafsir on every restart) —
+  // portable across machines/clones since it depends only on what was
+  // committed, never on filesystem metadata.
+  function surahAlreadyFixed(dest) {
+    try {
+      const data = JSON.parse(fs.readFileSync(dest, 'utf8'));
+      return (data.ayahs || []).some(a => a && !a.missing && (
+        (typeof a.commentary === 'string' && a.commentary.includes('\n')) ||
+        (typeof a.translation === 'string' && a.translation.includes('\n'))
+      ));
+    } catch {
+      return false; // unreadable/corrupt — treat as NOT fixed, so it gets re-fetched rather than silently skipped
+    }
+  }
 
   // resultsCache persists each surah's in-progress ayah array ACROSS
   // cleanup rounds (keyed by surah, reset per tafsir) so a retry only
@@ -149,7 +174,7 @@ async function main() {
     const dest = path.join(DATA, 'tafsir', slug, `${surah}.json`);
     if (fs.existsSync(dest)) {
       if (!FORCE) return true;
-      if (REFETCH_SINCE && fs.statSync(dest).mtimeMs >= REFETCH_SINCE) return true;
+      if (surahAlreadyFixed(dest)) return true;
     }
     const total = versesCount.get(surah);
     let results = resultsCache.get(surah);
